@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      layout:decorator="layout/mainLayout">
+      
+      <head>
+        <title>Cart</title>
+    </head>
+    <body>
+    	<div layout:fragment="content">
+    
+		    <div class="single-subject-area">
+		        <div class="zigzag-bottom"></div>
+		        <div class="container">
+		            <div class="row">
+		                <div class="woocommerce-info col-md-offset-2 col-md-8" th:if="${#lists.isEmpty(cart.items)}">
+							<h2>Cart is Empty</h2>
+						</div>
+		                <div class="col-md-offset-2 col-md-8" th:unless="${#lists.isEmpty(cart.items)}">
+		                    <div class="subject-content-right">
+		                        <div class="woocommerce">
+		                            <form method="post" action="#">
+		                                <table cellspacing="0" class="shop_table cart">
+		                                    <thead>
+		                                        <tr>
+		                                            <th class="subject-remove">&nbsp;</th>
+		                                            <th class="subject-thumbnail">&nbsp;</th>
+		                                            <th class="subject-name">Product</th>
+		                                            <th class="subject-price">Price</th>
+		                                            <th class="subject-quantity">Quantity</th>
+		                                            <th class="subject-subtotal">Total</th>
+		                                        </tr>
+		                                    </thead>
+		                                    <tbody>
+		                                        <tr class="cart_item" th:each="item : ${cart.items}">
+		                                            <td class="subject-remove">
+		                                                <a title="Remove this item" class="remove" href="#" 
+		                                                	th:onclick="'javascript:removeItemFromCart( \''+${item.subject.email}+'\');'">×</a>
+		                                            </td>
+		
+		                                            <td class="subject-thumbnail">
+		                                                <a href="#" th:href="@{/subjects/{email}(email=${item.subject.email})}">
+		                                                	<img width="145" height="145" alt="poster_1_up" 
+		                                                	class="shop_thumbnail" src="assets/img/subjects/2.jpg"
+		                                                	th:src="@{'/subjects/images/{id}.jpg'(id=${item.subject.id})}"/>
+		                                                </a>
+		                                            </td>
+		
+		                                            <td class="subject-name">
+		                                                <a href="#" th:href="@{/subjects/{email}(email=${item.subject.email})}"
+		                                                	th:text="${item.subject.name}">Product name</a>
+		                                            </td>
+		
+		                                            <td class="subject-price">
+		                                                <span class="amount" th:text="${item.subject.price}">$15.00</span>
+		                                            </td>
+		
+		                                            <td class="subject-quantity">
+		                                                <div class="quantity buttons_added">
+		                                                	<input type="text" size="5" value="1" th:value="${item.quantity}" 
+		                                                			th:onchange="'javascript:updateCartItemQuantity( \''+${item.subject.email}+'\' , '+this.value+');'"/>
+		                                                </div>
+		                                            </td>
+		
+		                                            <td class="subject-subtotal">
+		                                                <span class="amount" th:text="${item.subject.price * item.quantity}">$150.00</span>
+		                                            </td>
+		                                        </tr>
+		                                        <tr>
+		                                            <td class="actions" colspan="6">
+		                                                <a class="add_to_cart_button" href="#" th:href="@{/checkout}">CHECKOUT</a>
+		                                            </td>
+		                                        </tr>
+		                                    </tbody>
+		                                </table>
+		                            </form>
+		
+		                            <div class="cart-collaterals">
+					                     <div class="cart_totals ">
+		                                <h2>Cart Totals</h2>
+		
+		                                <table cellspacing="0">
+		                                    <tbody>
+		                                        <tr class="cart-subtotal">
+		                                            <th>Cart Subtotal</th>
+		                                            <td><span class="amount" th:text="${cart.totalAmount}">$15.00</span></td>
+		                                        </tr>
+		
+		                                        <tr class="shipping">
+		                                            <th>Shipping and Handling</th>
+		                                            <td>Free Shipping</td>
+		                                        </tr>
+		
+		                                        <tr class="order-total">
+		                                            <th>Order Total</th>
+		                                            <td><strong><span class="amount" th:text="${cart.totalAmount}">$15.00</span></strong> </td>
+		                                        </tr>
+		                                    </tbody>
+		                                </table>
+		                            </div>
+		
+		                            </div>
+		                        </div>                        
+		                    </div>                    
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		
+		</div>
+  </body>
+</html>

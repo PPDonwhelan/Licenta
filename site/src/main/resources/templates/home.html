@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      layout:decorator="layout/mainLayout">
+      
+      <head>
+        <title>Home</title>
+    </head>
+    <body>
+    	<div layout:fragment="content">
+    		<div class="single-subject-area">
+		        <div class="zigzag-bottom"></div>
+		        <div class="container">
+		        	
+		            <div class="row" th:each="cat : ${categories}">
+		            	<div class="woocommerce-info"> 
+		            		<a class="" th:href="@{/categories/{name}(name=${cat.name})}" 
+		            			th:text="${'Category: '+cat.name}">Category Name</a>
+		                 </div>
+		                <div class="col-md-3 col-sm-6" th:each="subject : ${cat.subjects}">
+		                    <div class="single-subject">
+		                        <h2><a href="#" th:href="@{/subjects/{email}(email=${subject.email})}"
+		                        		th:text="${subject.name}">Subject Name</a></h2>
+
+		                        
+		                        <div class="subject-option-shop">
+		                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" 
+		                            	rel="nofollow" href="#"
+		                            	th:onclick="'javascript:addItemToCart(\'' + ${subject.email} + '\');'">Analyze</a>
+		                        </div>
+		                    </div>
+		                </div>
+		                
+		            </div>
+		            
+		        </div>
+		    </div>
+    	</div>
+    	
+    </body>
+    
+</html>
