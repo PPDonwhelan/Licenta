@@ -4,8 +4,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
 	http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.sivalabs</groupId>
-	<artifactId>jcart</artifactId>
+	<groupId>com.rng</groupId>
+	<artifactId>rng</artifactId>
 	<version>1.0</version>
 	<packaging>pom</packaging>
 	
@@ -19,9 +19,9 @@
 	</properties>
 	
 	<modules>
-		<module>jcart-core</module>
-		<module>jcart-admin</module>
-		<module>jcart-site</module>		
+		<module>rng-core</module>
+		<module>rng-admin</module>
+		<module>rng-site</module>
 	</modules>
 	
 	<build>

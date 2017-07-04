@@ -25,6 +25,9 @@
         <module name="jcart-admin" />
         <module name="jcart-core" />
         <module name="jcart-site" />
+        <module name="rng-admin" />
+        <module name="rng-core" />
+        <module name="rng-site" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +35,10 @@
       <module name="jcart-admin" target="1.8" />
       <module name="jcart-core" target="1.8" />
       <module name="jcart-site" target="1.8" />
+      <module name="rng" target="1.8" />
+      <module name="rng-admin" target="1.8" />
+      <module name="rng-core" target="1.8" />
+      <module name="rng-site" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
