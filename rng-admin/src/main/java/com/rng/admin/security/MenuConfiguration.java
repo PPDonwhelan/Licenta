@@ -8,10 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * @author Siva
- *
- */
+
 public class MenuConfiguration 
 {
 	private static Map<String, String> MENU_URL_PATTERN_MAP = new HashMap<>();

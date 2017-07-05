@@ -4,21 +4,19 @@
 package com.rng.site.web.controllers;
 
 import com.rng.catalog.CatalogService;
-import com.rng.entities.Subject;
 import com.rng.entities.TestCategory;
-import org.aspectj.weaver.ast.Test;
+import com.rng.entities.Tests;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
-/**
- * @author Siva
- *
- */
+
 @Controller
 public class HomeController extends JCartSiteBaseController
 {	
@@ -38,12 +36,12 @@ public class HomeController extends JCartSiteBaseController
 		List<TestCategory> categories = catalogService.getAllCategories();
 		for (TestCategory category : categories)
 		{
-			Set<Test> tests = category.getTests();
-			Set<Test> previewTests = new HashSet<>();
-			int noOfProductsToDisplay = 4;
-			if(tests.size() > noOfProductsToDisplay){
-				Iterator<Test> iterator = tests.iterator();
-				for (int i = 0; i < noOfProductsToDisplay; i++)
+			List<Tests> tests = category.getTests();
+			List<Tests> previewTests = new ArrayList<>();
+			int noOfTestsToDisplay = 4;
+			if(tests.size() > noOfTestsToDisplay){
+				Iterator<Tests> iterator = tests.iterator();
+				for (int i = 0; i < noOfTestsToDisplay; i++)
 				{
 					previewTests.add(iterator.next());
 				}

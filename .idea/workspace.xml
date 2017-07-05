@@ -2,303 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00ff559f-1f22-43c0-9f43-1fb8b75d34fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_190.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_2_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_28.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_28.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_28.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_28.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_28.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_28.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_11_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_11_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_2_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_11_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_9_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity4_2_1_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_16.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/rng-admin.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/security/CustomUserDetailsService.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/pom.xml" afterPath="$PROJECT_DIR$/rng-admin/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/AdminApplication.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/AdminApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/config/WebConfig.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/config/WebConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/security/AuthenticatedUser.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/AuthenticatedUser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/security/CustomUserDetailsService.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/CustomUserDetailsService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/security/MenuConfiguration.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/MenuConfiguration.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/security/PostAuthorizationFilter.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/PostAuthorizationFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/security/SecurityUtil.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/SecurityUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/security/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/WebSecurityConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/controllers/AdminBaseController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/AdminBaseController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/controllers/ErrorController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/ErrorController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/controllers/HomeController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/HomeController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/controllers/PermissionController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/PermissionController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/controllers/RoleController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/RoleController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/controllers/SubjectController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/SubjectController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/controllers/TestCategoryController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/TestCategoryController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/controllers/UserAuthController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/UserAuthController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/controllers/UserController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/UserController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/utils/MessageCodes.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/utils/MessageCodes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/utils/WebUtils.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/utils/WebUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/validators/CategoryValidator.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/CategoryValidator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/validators/RoleValidator.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/RoleValidator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/validators/SubjectValidator.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/SubjectValidator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/rng/admin/web/validators/UserValidator.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/UserValidator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/application-default.properties" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/application-default.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/application-dev.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/application-prod.properties" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/application-prod.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/certkeystore.p12" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/certkeystore.p12" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/email-templates/forgot-password-email.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/email-templates/forgot-password-email.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/jcartadminkeystore.p12" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/jcartadminkeystore.p12" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/messages.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/bootstrap/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/bootstrap/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/css/AdminLTE.css" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/css/AdminLTE.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/css/AdminLTE.min.css" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/css/AdminLTE.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/css/skins/skin-blue.css" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/css/skins/skin-blue.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/css/skins/skin-blue.min.css" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/css/skins/skin-blue.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/avatar.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/avatar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/avatar04.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/avatar04.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/avatar2.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/avatar2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/avatar3.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/avatar3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/avatar5.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/avatar5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/boxed-bg.jpg" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/boxed-bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/boxed-bg.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/boxed-bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/credit/american-express.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/credit/american-express.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/credit/cirrus.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/credit/cirrus.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/credit/mastercard.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/credit/mastercard.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/credit/mestro.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/credit/mestro.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/credit/paypal.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/credit/paypal.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/credit/paypal2.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/credit/paypal2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/credit/visa.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/credit/visa.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/default-50x50.gif" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/default-50x50.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/icons.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/user-male.jpg" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/user-male.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/user.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/user.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/img/user1.png" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/user1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/dist/js/app.min.js" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/js/app.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/static/assets/plugins/jQuery/jQuery-2.1.4.min.js" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/plugins/jQuery/jQuery-2.1.4.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/categories/categories.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/categories/categories.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/categories/create_category.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/categories/create_category.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/categories/edit_category.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/categories/edit_category.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/customers/customers.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/customers/customers.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/customers/view_customer.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/customers/view_customer.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/error/accessDenied.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/error/accessDenied.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/home.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/layout/guestLayout.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/guestLayout.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/layout/mainLayout.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/mainLayout.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/orders/edit_order.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/orders/edit_order.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/orders/orders.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/orders/orders.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/permissions/permissions.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/permissions/permissions.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/public/forgotPwd.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/public/forgotPwd.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/public/login.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/public/login.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/public/resetPwd.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/public/resetPwd.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/roles/create_role.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/roles/create_role.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/roles/edit_role.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/roles/edit_role.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/roles/roles.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/roles/roles.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/subject/create_subject.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/create_subject.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/subject/edit_subject.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/edit_subject.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/subject/subject.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/subject.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/users/create_user.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/users/create_user.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/users/edit_user.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/users/edit_user.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/resources/templates/users/users.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/users/users.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/test/java/com/rng/AdminApplicationTest.java" afterPath="$PROJECT_DIR$/rng-admin/src/test/java/com/rng/AdminApplicationTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/pom.xml" afterPath="$PROJECT_DIR$/rng-core/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/rng-core.iml" afterPath="$PROJECT_DIR$/rng-core/rng-core.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/RNGException.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/RNGException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/catalog/CatalogService.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/CatalogService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/catalog/SubjectsRepository.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/SubjectsRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/catalog/TestCategoryRepository.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/TestCategoryRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/common/services/EmailService.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/common/services/EmailService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/common/services/JCLogger.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/common/services/JCLogger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/entities/Permission.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Permission.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/entities/Results.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Results.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/entities/Role.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Role.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/entities/Samples.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Samples.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/entities/Subject.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Subject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/entities/TestCategory.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/TestCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/entities/Tests.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Tests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/entities/User.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/orders/OrderRepository.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/orders/OrderRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/orders/OrderService.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/orders/OrderService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/security/PermissionRepository.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/security/PermissionRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/security/RoleRepository.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/security/RoleRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/security/SecurityService.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/security/SecurityService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/rng/security/UserRepository.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/security/UserRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/rng-core/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/resources/data.sql" afterPath="$PROJECT_DIR$/rng-core/src/main/resources/data.sql" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/resources/email-templates/order-confirmation-email.html" afterPath="$PROJECT_DIR$/rng-core/src/main/resources/email-templates/order-confirmation-email.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/resources/email-templates/order-status-update-email.html" afterPath="$PROJECT_DIR$/rng-core/src/main/resources/email-templates/order-status-update-email.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/com/rng/CoreApplication.java" afterPath="$PROJECT_DIR$/rng-core/src/test/java/com/rng/CoreApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/test/java/com/rng/CoreApplicationTest.java" afterPath="$PROJECT_DIR$/rng-core/src/test/java/com/rng/CoreApplicationTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jcart.iml" afterPath="$PROJECT_DIR$/rng.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/pom.xml" afterPath="$PROJECT_DIR$/rng-site/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/rng-site.iml" afterPath="$PROJECT_DIR$/rng-site/rng-site.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/JCartSiteApplication.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/SiteApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/config/WebConfig.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/config/WebConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/security/AuthenticatedUser.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/AuthenticatedUser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/security/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/WebSecurityConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/web/controllers/CartController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/CartController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/web/controllers/CheckoutController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/CheckoutController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/web/controllers/ErrorController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/ErrorController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/web/controllers/HomeController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/HomeController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/web/controllers/JCartSiteBaseController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/JCartSiteBaseController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/web/controllers/OrderController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/OrderController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/web/controllers/ProductController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/ProductController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/web/models/Cart.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/Cart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/web/models/LineItem.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/LineItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/web/models/OrderDTO.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/OrderDTO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/web/utils/WebUtils.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/utils/WebUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/java/com/rng/site/web/validators/CustomerValidator.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/validators/CustomerValidator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/application-default.properties" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/application-default.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/application-dev.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/application-prod.properties" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/application-prod.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/certkeystore.p12" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/certkeystore.p12" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/jcartsitekeystore.p12" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/jcartsitekeystore.p12" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/messages.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/css/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/css/owl.carousel.css" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/css/owl.carousel.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/css/responsive.css" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/css/responsive.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/1.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/10.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/11.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/11.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/12.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/12.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/13.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/13.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/14.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/14.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/15.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/15.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/16.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/16.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/17.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/17.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/18.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/18.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/19.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/19.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/2.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/20.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/20.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/21.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/21.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/22.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/22.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/23.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/23.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/24.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/24.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/25.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/25.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/3.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/31.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/31.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/4.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/5.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/6.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/7.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/8.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/products/9.jpg" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/img/quilcart.png" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/quilcart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/js/app.js" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/js/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/js/bxslider.min.js" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/js/bxslider.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/js/jquery.easing.1.3.min.js" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/js/jquery.easing.1.3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/js/jquery.sticky.js" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/js/jquery.sticky.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/js/main.js" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/js/owl.carousel.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/js/script.slider.js" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/js/script.slider.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/static/assets/style.css" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/templates/cart.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/templates/category.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/category.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/templates/checkout.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/checkout.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/templates/home.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/templates/layout/mainLayout.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/layout/mainLayout.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/login.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/templates/myAccount.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/myAccount.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/templates/orderconfirmation.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/orderconfirmation.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/templates/product.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/product.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/templates/products.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/products.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/templates/register.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/register.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/main/resources/templates/view_order.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/view_order.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/site/src/test/java/com/rng/JCartSiteApplicationTest.java" afterPath="$PROJECT_DIR$/rng-site/src/test/java/com/rng/SiteApplicationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/TestsRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-core/src/main/resources/certkeystore.p12" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/CustomUserDetailsService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/SubjectsController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/TestController.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/ProductController.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/config/WebConfig.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/config/WebConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/MenuConfiguration.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/MenuConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/SubjectController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/SubjectController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/guestLayout.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/guestLayout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/mainLayout.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/mainLayout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/CatalogService.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/CatalogService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-core/src/test/java/com/rng/CoreApplicationTest.java" afterPath="$PROJECT_DIR$/rng-core/src/test/java/com/rng/CoreApplicationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/SiteApplication.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/SiteApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/config/WebConfig.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/config/WebConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/AuthenticatedUser.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/AuthenticatedUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/WebSecurityConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/CartController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/CartController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/HomeController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/HomeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/OrderController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/OrderController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/Cart.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/Cart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/LineItem.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/LineItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/validators/CustomerValidator.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/validators/CustomerValidator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/application-default.properties" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/application-default.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html" />
     </list>
     <ignored path="jcart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -326,14 +55,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomUserDetailsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/CustomUserDetailsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomUserDetailsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/CustomUserDetailsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/config/WebConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="52" column="88" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3154#3155#0" expanded="false" />
+                <element signature="e#3198#3199#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreApplicationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-core/src/test/java/com/rng/CoreApplicationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SiteApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/SiteApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/config/WebConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -341,101 +147,29 @@
       <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-default.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/application-default.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-prod.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/application-prod.properties">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCategory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/TestCategory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
-              <folding>
-                <element signature="e#1565#1566#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-core/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-core/src/main/resources/data.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jcart-core.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-core/jcart-core.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-core/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/AdminApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/RoleValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#602#603#0" expanded="false" />
-                <element signature="e#650#651#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -461,30 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/resources/templates/public/forgotPwd.html" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/java/com/rng/admin/web/controllers/UserAuthController.java" />
-        <option value="$PROJECT_DIR$/jcart-core/src/main/java/com/rng/JCartException.java" />
-        <option value="$PROJECT_DIR$/jcart-core/src/main/java/com/rng/RNGException.java" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/resources/email-templates/forgot-password-email.html" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/resources/templates/public/resetPwd.html" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/resources/application-default.properties" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/java/com/rng/admin/security/SecurityUtil.java" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/java/com/rng/admin/web/controllers/PermissionController.java" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/java/com/rng/admin/web/validators/RoleValidator.java" />
-        <option value="$PROJECT_DIR$/jcart-core/src/main/java/com/rng/catalog/TestCategoryRepository.java" />
-        <option value="$PROJECT_DIR$/jcart-core/src/main/java/com/rng/catalog/SubjectsRepository.java" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/java/com/rng/admin/web/controllers/TestCategoryController.java" />
-        <option value="$PROJECT_DIR$/jcart-core/src/main/java/com/rng/catalog/CatalogService.java" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/resources/templates/categories/categories.html" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/java/com/rng/admin/web/validators/CategoryValidator.java" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/resources/templates/categories/create_category.html" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/resources/templates/categories/edit_category.html" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/java/com/rng/admin/web/validators/ProductFormValidator.java" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/java/com/rng/admin/web/validators/SubjectValidator.java" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/java/com/rng/admin/web/controllers/ProductController.java" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/java/com/rng/admin/web/controllers/SubjectController.java" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/resources/templates/subject/create_subject.html" />
-        <option value="$PROJECT_DIR$/jcart-admin/src/main/resources/templates/subject/subject.html" />
         <option value="$PROJECT_DIR$/jcart-admin/src/main/resources/templates/subject/edit_subject.html" />
         <option value="$PROJECT_DIR$/jcart-site/src/main/resources/application-default.properties" />
         <option value="$PROJECT_DIR$/jcart-site/src/main/java/com/rng/site/config/WebConfig.java" />
@@ -508,10 +218,34 @@
         <option value="$PROJECT_DIR$/rng-admin/pom.xml" />
         <option value="$PROJECT_DIR$/rng-site/pom.xml" />
         <option value="$PROJECT_DIR$/rng-site/src/main/resources/messages.properties" />
-        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/CustomUserDetailsService.java" />
         <option value="$PROJECT_DIR$/rng-core/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rng-core/pom.xml" />
         <option value="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/TestCategory.java" />
+        <option value="$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/guestLayout.html" />
+        <option value="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/MenuConfiguration.java" />
+        <option value="$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/mainLayout.html" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/HomeController.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/TestsRepository.java" />
+        <option value="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/CatalogService.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/ProductController.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/TestController.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/SubjectsController.java" />
+        <option value="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/SubjectController.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/AuthenticatedUser.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/OrderController.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/validators/CustomerValidator.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/LineItem.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/CartController.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/Cart.java" />
+        <option value="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/rng-core/src/test/java/com/rng/CoreApplicationTest.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/CustomUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/SiteApplication.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/resources/application-default.properties" />
       </list>
     </option>
   </component>
@@ -529,40 +263,38 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="rng-site" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="rng" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -589,7 +321,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -605,24 +338,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Licenta_final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Licenta_final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -677,6 +392,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -741,6 +460,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Licenta_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -779,6 +544,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Licenta_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -891,6 +694,150 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Licenta_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Licenta_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Licenta_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Licenta_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -921,52 +868,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Licenta_final" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rng-admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rng" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1018,11 +919,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="rng" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1053,6 +954,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Licenta_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1127,11 +1082,94 @@
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Licenta_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Licenta_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1147,7 +1185,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Migration_from_Stash_to_Gitlab" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jcart-master" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1155,10 +1193,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moldovanm2\Documents\Licenta_final\rng-core\src\main\resources" />
+      <recent name="C:\Users\moldovanm2\Documents\Licenta_final\rng-site\src\main\resources" />
       <recent name="C:\Users\moldovanm2\Documents\Licenta_final\jcart-site\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminApplication">
+  <component name="RunManager" selected="Spring Boot.SiteApplication (1)">
     <configuration default="false" name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1228,6 +1268,18 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="rng" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SiteApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.rng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rng.SiteApplication" />
+      <module name="rng-site" />
       <envs />
       <method />
     </configuration>
@@ -1954,20 +2006,22 @@
       <envs />
       <method />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.JCartSiteApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.JCartAdminApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.AdminApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.SiteApplication" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.AdminApplicationTest" />
       <item index="5" class="java.lang.String" itemvalue="Application.AdminApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.SiteApplication (1)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.AdminApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AdminApplication" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AdminApplicationTest" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.SiteApplication" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.SiteApplication (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.AdminApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AdminApplication" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AdminApplicationTest" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.SiteApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1992,7 +2046,9 @@
       <workItem from="1499145608648" duration="225000" />
       <workItem from="1499145973162" duration="1847000" />
       <workItem from="1499147915030" duration="1847000" />
-      <workItem from="1499149844259" duration="1673000" />
+      <workItem from="1499149844259" duration="6316000" />
+      <workItem from="1499216540792" duration="5023000" />
+      <workItem from="1499221686536" duration="2068000" />
     </task>
     <servers />
   </component>
@@ -2002,28 +2058,29 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42192000" />
+    <option name="totallyTimeSpent" value="53926000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.48507464" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.47441363" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850778" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34061834" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850778" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3351893" sideWeight="0.5298507" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3439182" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3351893" sideWeight="0.47014925" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2521322" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.48507464" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2033,8 +2090,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4978678" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2066,298 +2123,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/target/classes/data.sql" />
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/subject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="38" column="78" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/CustomUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/css/skins/skin-blue.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1979">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/quilcart.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/static/assets/img/products/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/user1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/boxed-bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/boxed-bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/default-50x50.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/avatar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/avatar2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/avatar3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/avatar04.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/avatar5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/icons.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/static/assets/dist/img/user.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/src/main/resources/templates/index.html" />
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/myAccount.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/layout/mainLayout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/guestLayout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/mainLayout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/java/net/URLClassLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2737">
-          <caret line="207" column="0" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/test/java/com/rng/AdminApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/rng-admin.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Samples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/rng-site.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/CustomUserDetailsService.java" />
-    <entry file="file://$PROJECT_DIR$/rng-site/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/jcart-site.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/RoleValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-            <element signature="e#650#651#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-core/rng-core.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rng-core/jcart-core.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-core/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-core/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2369,45 +2138,414 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/public/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/layout/mainLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="133" column="32" selection-start-line="123" selection-start-column="4" selection-end-line="133" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/guestLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-268">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/MenuConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/PostAuthorizationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/SecurityUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/UserAuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/AdminBaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/AuthenticatedUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/utils/WebUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/AdminApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#249#250#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/mainLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-core/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/TestCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="e#1531#1532#0" expanded="false" />
+            <element signature="e#1565#1566#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="123" selection-start-line="28" selection-start-column="123" selection-end-line="28" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/SubjectsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="75" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/TestCategoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/TestsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/CatalogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="122" column="5" selection-start-line="122" selection-start-column="5" selection-end-line="122" selection-end-column="5" />
+          <folding>
+            <element signature="e#2687#2688#0" expanded="false" />
+            <element signature="e#2741#2742#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/SubjectsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/SubjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/AuthenticatedUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/validators/CustomerValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/LineItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="43" column="5" selection-start-line="40" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-core/src/main/java/com/rng/security/SecurityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-core/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/rng-admin.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-core/src/test/java/com/rng/CoreApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="52" column="88" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3154#3155#0" expanded="false" />
+            <element signature="e#3198#3199#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/CustomUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/CustomUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-core/src/main/resources/certkeystore.p12">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/SiteApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/TestCategory.java">
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/application-default.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
-          <folding>
-            <element signature="e#1565#1566#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

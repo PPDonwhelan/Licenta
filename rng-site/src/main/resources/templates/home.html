@@ -15,18 +15,18 @@
 		            <div class="row" th:each="cat : ${categories}">
 		            	<div class="woocommerce-info"> 
 		            		<a class="" th:href="@{/categories/{name}(name=${cat.name})}" 
-		            			th:text="${'Category: '+cat.name}">Category Name</a>
+		            			th:text="${'Category: '+cat.name}">Test Category Name</a>
 		                 </div>
-		                <div class="col-md-3 col-sm-6" th:each="subject : ${cat.subjects}">
+		                <div class="col-md-3 col-sm-6" th:each="test : ${cat.tests}">
 		                    <div class="single-subject">
-		                        <h2><a href="#" th:href="@{/subjects/{email}(email=${subject.email})}"
-		                        		th:text="${subject.name}">Subject Name</a></h2>
+		                        <h2><a href="#" th:href="@{/test/{name}(name=${test.name})}"
+		                        		th:text="${test.name}">Test Name</a></h2>
 
 		                        
 		                        <div class="subject-option-shop">
-		                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" 
+		                            <a class="see_details_button" data-quantity="1" data-test="" data-test_id="70"
 		                            	rel="nofollow" href="#"
-		                            	th:onclick="'javascript:addItemToCart(\'' + ${subject.email} + '\');'">Analyze</a>
+		                            	th:onclick="'javascript:analyzeTestResults(\'' + ${test.name} + '\');'">Analyze</a>
 		                        </div>
 		                    </div>
 		                </div>

@@ -3,14 +3,9 @@
  */
 package com.rng.site.web.models;
 
-import java.math.BigDecimal;
-
 import com.rng.entities.Subject;
 
-/**
- * @author Siva
- *
- */
+
 public class LineItem
 {
 	private Subject subject;
@@ -43,10 +38,10 @@ public class LineItem
 		this.quantity = quantity;
 	}
 	
-	public BigDecimal getSubTotal()
-	{
-		return subject.getPrice().multiply(new BigDecimal(quantity));
-	}
+//	public BigDecimal getSubTotal()
+//	{
+//		return subject.getPrice().multiply(new BigDecimal(quantity));
+//	}
 	
 	
 }

@@ -3,8 +3,7 @@
  */
 package com.rng.admin.config;
 
-import javax.servlet.Filter;
-
+import com.rng.admin.security.PostAuthorizationFilter;
 import org.apache.catalina.Context;
 import org.apache.catalina.connector.Connector;
 import org.apache.tomcat.util.descriptor.web.SecurityCollection;
@@ -26,14 +25,14 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.thymeleaf.extras.springsecurity4.dialect.SpringSecurityDialect;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 
-import com.rng.admin.security.PostAuthorizationFilter;
+import javax.servlet.Filter;
 
 
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter
 {   
 	@Value("${server.port:9443}") private int serverPort;
-	
+	@SuppressWarnings("SpringJavaAutowiringInspection")
 	@Autowired 
 	private PostAuthorizationFilter postAuthorizationFilter;
 	
@@ -48,6 +47,8 @@ public class WebConfig extends WebMvcConfigurerAdapter
     }
     	
 	//http://stackoverflow.com/questions/25957879/filter-order-in-spring-boot
+
+	@SuppressWarnings("SpringJavaAutowiringInspection")
 	@Bean
 	public FilterRegistrationBean securityFilterChain(@Qualifier(AbstractSecurityWebApplicationInitializer.DEFAULT_FILTER_NAME) Filter securityFilter) {
 	    FilterRegistrationBean registration = new FilterRegistrationBean(securityFilter);

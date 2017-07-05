@@ -6,6 +6,7 @@ package com.rng.catalog;
 import com.rng.RNGException;
 import com.rng.entities.Subject;
 import com.rng.entities.TestCategory;
+import com.rng.entities.Tests;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,6 +18,7 @@ import java.util.List;
 public class CatalogService {
 	@Autowired TestCategoryRepository categoryRepository;
 	@Autowired SubjectsRepository subjectsRepository;
+	@Autowired TestsRepository testsRepository;
 	
 	public List<TestCategory> getAllCategories() {
 		
@@ -26,6 +28,10 @@ public class CatalogService {
 	public List<Subject> getAllSubjects() {
 		
 		return subjectsRepository.findAll();
+	}
+	public List<Tests> getAllTests() {
+
+		return testsRepository.findAll();
 	}
 
 	public TestCategory getCategoryByName(String name) {
@@ -54,7 +60,7 @@ public class CatalogService {
 		return categoryRepository.save(persistedCategory);
 	}
 
-	public Subject getProductById(Integer id) {
+	public Subject getSubjectById(Integer id) {
 		return subjectsRepository.findOne(id);
 	}
 
@@ -71,7 +77,7 @@ public class CatalogService {
 	}
 	
 	public Subject updateSubject(Subject subject) {
-		Subject persistedSubject = getProductById(subject.getId());
+		Subject persistedSubject = getSubjectById(subject.getId());
 		if(persistedSubject == null){
 			throw new RNGException("Subject "+ subject.getId()+" doesn't exist");
 		}
@@ -82,7 +88,40 @@ public class CatalogService {
 		return subjectsRepository.save(persistedSubject);
 	}
 
-	public List<Subject> searchProducts(String query) {
+	public List<Subject> searchSubject(String query) {
 		return subjectsRepository.search("%"+query+"%");
 	}
+
+
+
+	public Tests getTestsById(Integer id) {
+		return testsRepository.findOne(id);
+	}
+
+	public Tests getTestsName(String name) {
+		return testsRepository.findByName(name);
+	}
+
+	public Tests createTests (Tests test) {
+		Tests persistedTests = getTestsName(test.getName());
+		if(persistedTests != null){
+			throw new RNGException("Test name  "+ test.getName()+" already exist");
+		}
+		return testsRepository.save(test);
+	}
+
+	public Tests updateTests(Tests test) {
+		Tests persistedTests = getTestsById(test.getId());
+		if(persistedTests == null){
+			throw new RNGException("Tests "+ test.getId()+" doesn't exist");
+		}
+		persistedTests.setName(test.getName());
+		persistedTests.setDescription(test.getDescription());
+		persistedTests.setResults(test.getResults());
+
+		return testsRepository.save(persistedTests);
+	}
+
+
+
 }

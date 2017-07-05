@@ -75,7 +75,7 @@ public class SubjectController extends AdminBaseController
 	
 	@RequestMapping(value="/subject/{id}", method=RequestMethod.GET)
 	public String editProductForm(@PathVariable Integer id, Model model) {
-		Subject subject = catalogService.getProductById(id);
+		Subject subject = catalogService.getSubjectById(id);
 		model.addAttribute("subject",subject);
 		return viewPrefix+"edit_subject";
 	}
