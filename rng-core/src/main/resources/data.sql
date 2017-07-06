@@ -85,3 +85,6 @@ insert into tests_to_category(test_id, category_id) VALUES
 (10,2),
 (11,1),(11,2),(11,3)
 ;
+
+INSERT INTO subjects (id, email, age, gender) VALUES ('1', 'ana@gmail.ro', '22', 'female');
+INSERT INTO subjects (id, email, age, gender) VALUES ('2', 'ion@gmail.ro', '23', 'male');

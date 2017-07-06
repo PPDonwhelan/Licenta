@@ -2,39 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00ff559f-1f22-43c0-9f43-1fb8b75d34fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/TestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/TestsValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/tests/create_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/tests/edit_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/tests/tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/tests.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/subject.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/subjects.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/JCartSiteBaseController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/SiteBaseController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/product.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/subject.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/products.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/subjects.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/validators/UserValidator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/SubjectController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/SubjectController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/TestCategoryController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/TestCategoryController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/SubjectValidator.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/SubjectValidator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/create_subject.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/create_subject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/edit_subject.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/edit_subject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/CatalogService.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/CatalogService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/TestCategoryRepository.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/TestCategoryRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/TestCategory.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/TestCategory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-core/src/main/resources/data.sql" afterPath="$PROJECT_DIR$/rng-core/src/main/resources/data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/CartController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/CartController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/CheckoutController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/CheckoutController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/ErrorController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/ErrorController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/HomeController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/OrderController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/OrderController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/SubjectsController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/SubjectsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/TestController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/js/app.js" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/style.css" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/category.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/category.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/layout/mainLayout.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/layout/mainLayout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/subjects.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/subjects.html" />
     </list>
     <ignored path="jcart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,61 +37,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SubjectController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/SubjectController.java">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="93" column="34" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
+            <state relative-caret-position="374">
+              <caret line="22" column="81" selection-start-line="21" selection-start-column="36" selection-end-line="22" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/tests/tests.html">
+      <file leaf-file-name="mainLayout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/layout/mainLayout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="36" column="82" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+            <state relative-caret-position="617">
+              <caret line="72" column="83" selection-start-line="72" selection-start-column="83" selection-end-line="72" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/TestController.java">
+      <file leaf-file-name="AuthenticatedUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/AuthenticatedUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/tests/edit_test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/tests/create_test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="85">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,38 +94,38 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="527">
+              <caret line="73" column="45" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminBaseController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/AdminBaseController.java">
+      <file leaf-file-name="subjects.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/subjects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="374">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_subject.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/create_subject.html">
+      <file leaf-file-name="category.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/category.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="432">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_subject.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/edit_subject.html">
+      <file leaf-file-name="myAccount.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/myAccount.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -183,10 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rng-site/pom.xml" />
-        <option value="$PROJECT_DIR$/rng-site/src/main/resources/messages.properties" />
-        <option value="$PROJECT_DIR$/rng-core/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/rng-core/pom.xml" />
         <option value="$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/guestLayout.html" />
         <option value="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/MenuConfiguration.java" />
         <option value="$PROJECT_DIR$/rng-admin/src/main/resources/templates/layout/mainLayout.html" />
@@ -206,21 +171,17 @@
         <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/rng-site/src/main/resources/application-default.properties" />
-        <option value="$PROJECT_DIR$/rng-site/src/main/resources/templates/subjects.html" />
         <option value="$PROJECT_DIR$/rng-site/src/main/resources/templates/subject.html" />
         <option value="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/TestsValidator.java" />
         <option value="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/SubjectValidator.java" />
         <option value="$PROJECT_DIR$/rng-site/src/main/resources/templates/test.html" />
-        <option value="$PROJECT_DIR$/rng-site/src/main/resources/templates/layout/mainLayout.html" />
         <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/SubjectsController.java" />
         <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/TestController.java" />
         <option value="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/CatalogService.java" />
         <option value="$PROJECT_DIR$/rng-core/src/main/java/com/rng/catalog/TestCategoryRepository.java" />
         <option value="$PROJECT_DIR$/rng-site/src/main/resources/static/assets/style.css" />
-        <option value="$PROJECT_DIR$/rng-site/src/main/resources/templates/category.html" />
         <option value="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/TestCategoryController.java" />
         <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/TestCategoryController.java" />
-        <option value="$PROJECT_DIR$/rng-core/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/TestCategory.java" />
         <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/HomeController.java" />
         <option value="$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html" />
@@ -234,6 +195,14 @@
         <option value="$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/create_subject.html" />
         <option value="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/TestController.java" />
         <option value="$PROJECT_DIR$/rng-admin/src/main/resources/templates/tests/tests.html" />
+        <option value="$PROJECT_DIR$/rng-core/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/resources/templates/layout/mainLayout.html" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/resources/templates/subjects.html" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/validators/UserValidator.java" />
+        <option value="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/service/UserService.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/service/UserService.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/rng-site/src/main/resources/templates/category.html" />
       </list>
     </option>
   </component>
@@ -782,6 +751,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Licenta_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="security" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1222,6 +1229,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Licenta_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rng-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1495,6 +1536,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rng.site.service" />
+      <recent name="com.rng.admin.service" />
+      <recent name="com.rng.site.web.validators" />
       <recent name="com.rng.admin.web.validators" />
       <recent name="com.rng.admin.web.controllers" />
     </key>
@@ -1506,7 +1550,7 @@
       <recent name="C:\Users\moldovanm2\Documents\Licenta_final\jcart-site\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminApplication">
+  <component name="RunManager" selected="Spring Boot.SiteApplication (1)">
     <configuration default="false" name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2325,8 +2369,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.AdminApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.SiteApplication (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.SiteApplication (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.AdminApplication" />
         <item index="2" class="java.lang.String" itemvalue="Application.AdminApplication" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.AdminApplicationTest" />
         <item index="4" class="java.lang.String" itemvalue="Spring Boot.SiteApplication" />
@@ -2357,7 +2401,7 @@
       <workItem from="1499149844259" duration="6316000" />
       <workItem from="1499216540792" duration="5023000" />
       <workItem from="1499221686536" duration="2650000" />
-      <workItem from="1499272422560" duration="22405000" />
+      <workItem from="1499272422560" duration="25425000" />
     </task>
     <servers />
   </component>
@@ -2367,7 +2411,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76913000" />
+    <option name="totallyTimeSpent" value="79933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -2456,73 +2500,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/CustomUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/CustomUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-core/src/main/resources/certkeystore.p12">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/SiteApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#356#357#0" expanded="false" />
-            <element signature="e#413#414#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1978#1979#0" expanded="false" />
-            <element signature="e#2016#2017#0" expanded="false" />
-            <element signature="e#2512#2513#0" expanded="false" />
-            <element signature="e#2553#2554#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#1358#1359#0" expanded="false" />
-            <element signature="e#1408#1409#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -2540,14 +2517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/subjects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="81" selection-start-line="25" selection-start-column="81" selection-end-line="25" selection-end-column="81" />
           <folding />
         </state>
       </provider>
@@ -2590,14 +2559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1748">
           <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/layout/mainLayout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="71" column="89" selection-start-line="71" selection-start-column="89" selection-end-line="71" selection-end-column="89" />
           <folding />
         </state>
       </provider>
@@ -2743,14 +2704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rng-core/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/TestCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -2778,22 +2731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/static/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -2814,14 +2751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/subjects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
           <folding />
         </state>
       </provider>
@@ -2866,14 +2795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/AdminBaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-136">
@@ -2898,10 +2819,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rng-core/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="89" column="89" selection-start-line="89" selection-start-column="89" selection-end-line="89" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/tests/tests.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="362">
           <caret line="36" column="82" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/subject/subjects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="53" selection-start-line="39" selection-start-column="36" selection-end-line="41" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="81" selection-start-line="21" selection-start-column="36" selection-end-line="22" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/subjects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/myAccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/layout/mainLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="72" column="83" selection-start-line="72" selection-start-column="83" selection-end-line="72" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/validators/UserValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/security/AuthenticatedUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="73" column="45" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rng-site/src/main/resources/templates/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding />
         </state>
       </provider>
