@@ -76,4 +76,12 @@ public class TestCategoryController extends AdminBaseController {
         redirectAttributes.addFlashAttribute("info", "Category updated successfully");
         return "redirect:/categories";
     }
+
+    @RequestMapping(value="/categories/{name}", method=RequestMethod.GET)
+    public String category(@PathVariable String name, Model model)
+    {
+        TestCategory category = catalogService.getCategoryByName(name);
+        model.addAttribute("category", category);
+        return "category";
+    }
 }

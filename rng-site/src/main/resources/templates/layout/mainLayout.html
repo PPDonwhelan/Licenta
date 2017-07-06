@@ -6,7 +6,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title layout:title-pattern="$DECORATOR_TITLE - $CONTENT_TITLE">QuilCart</title>
+    <title layout:title-pattern="$DECORATOR_TITLE - $CONTENT_TITLE">RNG</title>
     
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'/>
@@ -69,14 +69,8 @@
                     </button>
                 </div> 
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#" th:href="@{/}">Home</a></li>
-                       <!--  <li><a th:href="@{/}">New Arrivals</a></li>
-                        <li><a th:href="@{/}">Best Sellers</a></li> -->
-                        
-                    </ul>
-                    <form class="navbar-form navbar-right" action="#" th:action="@{/subjects}">
-			            <input type="text" name="q" placeholder="Search subjects..."/>
+                    <form class="navbar-form navbar-right" action="#" th:action="@{/tests}">
+			            <input type="text" name="name" placeholder="Search tests..."/>
                         <input type="submit" value="Search"/>
 			          </form>
                 </div>  
@@ -89,7 +83,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="subject-bit-title text-center">
-                        <h2>Shop</h2>
+                        <h2>Random Number Generators</h2>
                     </div>
                 </div>
             </div>
@@ -103,9 +97,9 @@
     <div class="footer-bottom-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <div class="copyright">
-                       <p>&copy; 2015 <a href="http://sivalabs.in" target="_blank">SivaLabs</a>. All Rights Reserved. </p>
+                       <p>&copy; 2017 <a href="http://localhost" target="_blank">MariaAntoanela</a>. All Rights Reserved. </p>
                     </div>
                 </div>
                 
@@ -121,17 +115,7 @@
     <script th:src="@{'/assets/js/main.js'}"></script>	  
     <script th:src="@{'/assets/js/app.js'}"></script>
 
-    <!-- Sidebar Menu -->
-    <ul class="sidebar-menu">
-        <!-- <li class="header">HEADER</li> -->
-        <!-- Optionally, you can add icons to the links -->
-        <li th:class="${CURRENT_MENU == 'Home'}? 'active' : ''" ><a href="#" th:href="@{'/home'}"><i class="fa fa-home"></i> <span>Home</span></a></li>
-        <li th:class="${CURRENT_MENU == 'Tests'}? 'active' : ''"  sec:authorize="hasRole('ROLE_MANAGE_TESTS')"><a href="#" th:href="@{'/tests'}"><i class="fa fa-folder-open"></i> <span>Tests</span></a></li>
-        <li th:class="${CURRENT_MENU == 'Tests Category'}? 'active' : ''"  sec:authorize="hasRole('ROLE_MANAGE_TEST_CATEGORY')"><a href="#" th:href="@{'/tests_category'}"><i class="fa fa-file"></i> <span>Tests Categories</span></a></li>
-        <li th:class="${CURRENT_MENU == 'Samples'}? 'active' : ''"  sec:authorize="hasRole('ROLE_MANAGE_SAMPLES')"><a href="#" th:href="@{'/samples'}"><i class="fa fa-folder-open"></i> <span>Samples</span></a></li>
-        <li th:class="${CURRENT_MENU == 'Subjects'}? 'active' : ''"  sec:authorize="hasRole('ROLE_MANAGE_SUBJECTS')"><a href="#" th:href="@{'/subjects'}"><i class="fa fa-users"></i> <span>Subjects</span></a></li>
 
-    </ul><!-- /.sidebar-menu -->
 
     </body>
 </html>

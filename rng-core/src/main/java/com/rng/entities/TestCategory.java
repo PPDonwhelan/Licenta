@@ -32,9 +32,9 @@ public class TestCategory implements Serializable{
     }
     @ManyToMany(cascade=CascadeType.MERGE)
     @JoinTable(
-            name="test_to_category",
-            joinColumns={@JoinColumn(name="test_id", referencedColumnName="id")},
-            inverseJoinColumns={@JoinColumn(name="category_id", referencedColumnName="id")})
+            name="tests_to_category",
+            joinColumns={@JoinColumn(name="category_id")},
+            inverseJoinColumns={@JoinColumn(name="test_id")})
     private List<Tests> tests;
 
     public Integer getId()

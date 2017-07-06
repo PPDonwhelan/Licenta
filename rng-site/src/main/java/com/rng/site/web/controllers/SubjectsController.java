@@ -19,7 +19,7 @@ import java.util.List;
  *
  */
 @Controller
-public class SubjectsController extends JCartSiteBaseController
+public class SubjectsController extends SiteBaseController
 {
 	@Autowired
 	private CatalogService catalogService;
@@ -39,7 +39,7 @@ public class SubjectsController extends JCartSiteBaseController
 	}
 
 	@RequestMapping("/subjects")
-	public String searchProducts(@RequestParam(name="q", defaultValue="") String query, Model model)
+	public String searchProducts(@RequestParam(name="name", defaultValue="") String query, Model model)
 	{
 		List<Subject> subjects = catalogService.searchSubject(query);
 		model.addAttribute("subjects", subjects);

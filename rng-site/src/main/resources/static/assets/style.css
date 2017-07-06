@@ -809,13 +809,13 @@ input[type="submit"]:hover, button[type=submit]:hover {background-color: #222}
     padding: 5px;
     width: 50px;
 }
-.add_to_cart_button {
+.analyze_button {
     background: none repeat scroll 0 0 #5a88ca;
     border: medium none;
     color: #fff;
     padding: 6px 25px;display: inline-block
 }
-.add_to_cart_button:hover {background-color: #222;color: #fff;text-decoration: none}
+.analyze_button:hover {background-color: #222;color: #fff;text-decoration: none}
 form.cart {
     margin-bottom: 25px;
 }
@@ -1080,7 +1080,7 @@ div.quantity input.plus:hover, div.quantity input.minus:hover {background-color:
 div.cart-collaterals ul.products li.product a:hover h3 {color: #5a88ca}
 div.cart-collaterals ul.products li.product a:hover {text-decoration: none}
 
-div.cart-collaterals ul.products li.product:hover .add_to_cart_button{background-color: #222}
+div.cart-collaterals ul.products li.product:hover .analyze_button {background-color: #222}
 
 
 .cart-collaterals .shipping_calculator {

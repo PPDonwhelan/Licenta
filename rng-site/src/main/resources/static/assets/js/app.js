@@ -17,21 +17,35 @@ jQuery(document).ready(function($){
 	        dataType: "json",
 	        contentType: "application/json",
 	        complete: function(responseData, status, xhttp){ 
-	        	$('#cart-item-count').text('('+responseData.responseJSON.count+')');
+	        	$('#result').text('('+responseData.responseJSON.count+')');
 	        }
 	    });
 	}
 
-	function addItemToCart(sku)
+	function getTestsResults()
+	{
+		$.ajax ({
+			url: '/result',
+			type: "GET",
+			dataType: "json",
+			contentType: "application/json",
+			complete: function(responseData, status, xhttp){
+				$('#result').text('('+responseData.responseJSON.count+')');
+			}
+		});
+	}
+
+	function analyzeTestResult(name)
 	{
 		$.ajax ({ 
-	        url: '/cart/items', 
+	        url: '/result',
 	        type: "POST", 
 	        dataType: "json",
 	        contentType: "application/json",
-	        data : '{"sku":"'+ sku +'"}"',
+	        data : '{"name":"'+ name +'"}"',
 	        complete: function(responseData, status, xhttp){
-	        	updateCartItemCount();
+	        	//updateCartItemCount();
+				getTestsResults();
 	        	/*
 	        	$.bootstrapGrowl("Item added to cart", 
 	        					{ type: 'info',

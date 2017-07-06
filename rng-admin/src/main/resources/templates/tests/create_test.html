@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      layout:decorator="layout/mainLayout">
+      
+      <head>
+        <title>Subject - New</title>
+    </head>
+    <body>
+        
+    	<div layout:fragment="content">
+	        
+              <div class="box box-warning">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Create New Test</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <form role="form" th:action="@{/tests}" th:object="${tests}" method="post" enctype="multipart/form-data">
+                    <p th:if="${#fields.hasErrors('global')}" th:errors="*{global}" th:class="text-red">Incorrect data</p>
+
+                    
+                    <div class="form-group" th:classappend="${#fields.hasErrors('name')}? 'has-error'">
+                      <label>Name</label>
+                      <input type="text" class="form-control" name="name" th:field="*{name}" placeholder="Enter Subject email"/>
+                      <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}" th:class="text-red">Incorrect data</p>
+                    </div>
+
+                    <div class="form-group" th:classappend="${#fields.hasErrors('description')}? 'has-error'">
+                      <label>Description</label>
+                      <input type="text" class="form-control" name="description" th:field="*{description}" placeholder="Enter Subject age"/>
+                      <p th:if="${#fields.hasErrors('description')}" th:errors="*{description}" th:class="text-red">Incorrect data</p>
+                    </div>
+
+                    
+					<div class="form-group" th:classappend="${#fields.hasErrors('categoryId')}? 'has-error'">
+						<label>Category</label>
+						<div>
+							<select class="form-control" th:field="*{categoryId}">
+							  <option th:each="cat : ${categoriesList}" 
+							          th:value="${cat.id}" 
+							          th:text="${cat.name}">Category</option>
+							</select>
+					  	<p th:if="${#fields.hasErrors('categoryId')}" th:errors="*{categoryId}" th:class="text-red">Incorrect data</p>
+						</div>
+						
+    				</div>
+    				
+					<div class="box-footer">
+	                    <button type="submit" class="btn btn-primary">Submit</button>
+	                </div>
+                  </form>
+                </div><!-- /.box-body -->
+              </div><!-- /.box -->
+    	</div>
+    	
+    </body>
+    
+</html>

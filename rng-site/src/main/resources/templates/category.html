@@ -14,26 +14,19 @@
 		        	
 		            <div class="row">
 		            	<div class="woocommerce-info"> 
-		            		<a href="" th:href="@{/}">Home</a> / 
+		            		<a href="" th:href="@{/}">Home2</a> /
 		                    <a href="" th:href="@{/categories/{name}(name=${category.name})}" 
-		                    	th:text="${category.name}">Category Name</a>
+		                    	th:text="${category.name}">Category Name3</a>
 		                 </div>
-		                <div class="col-md-3 col-sm-6" th:each="subject : ${category.subjects}">
+		                <div class="col-md-3 col-sm-6" th:each="test : ${category.tests}">
 		                    <div class="single-shop-subject">
-		                        <div class="subject-upper">
-		                            <img src="assets/img/subjects/2.jpg" alt=""
-		                            	 th:src="@{'/subjects/images/{id}.jpg'(id=${subject.id})}"/>
-		                        </div>
-		                        <h2><a href="#" th:href="@{/subjects/{email}(email=${subject.email})}"
-		                        		th:text="${subject.name}">Product name</a></h2>
-		                        <div class="subject-carousel-price">
-		                            <ins th:text="${subject.price}">$9.00</ins>
-		                        </div>
+		                        <h2><a href="#" th:href="@{/tests/{name}(name=${test.name})}"
+		                        		th:text="${test.name}">Tests name</a></h2>
 		                        
 		                        <div class="subject-option-shop">
-		                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" 
+		                            <a class="analyze_button"
 		                            	data-product_id="70" rel="nofollow" href="#"
-		                            	th:onclick="'javascript:addItemToCart(\'' + ${subject.email} + '\');'">Add to cart</a>
+		                            	th:onclick="'javascript:analyzeTestResult(\'' + ${test.name} + '\');'">Analyze</a>
 		                        </div>                       
 		                    </div>
 		                </div>

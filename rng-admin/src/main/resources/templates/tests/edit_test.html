@@ -12,28 +12,35 @@
 	        
               <div class="box box-warning">
                 <div class="box-header with-border">
-                  <h3 class="box-title">Edit Subject</h3>
+                  <h3 class="box-title">Edit Test</h3>
                 </div><!-- /.box-header -->
                 <div class="box-body">
-                  <form role="form" th:action="@{/subjects/{id}(id=${subject.id})}" th:object="${subject}" method="post"  enctype="multipart/form-data">
+                  <form role="form" th:action="@{/tests/{id}(id=${tests.id})}" th:object="${tests}" method="post"  enctype="multipart/form-data">
                     <p th:if="${#fields.hasErrors('global')}" th:errors="*{global}" th:class="text-red">Incorrect data</p>
                     <!-- text input -->
                     <div class="form-group">
-                      <label>Email</label>
-                      <input type="text" class="form-control" name="name" th:field="*{email}" readonly="readonly"/>
+                      <label>Name</label>
+                      <input type="text" class="form-control" name="name" th:field="*{name}" readonly="readonly"/>
                     </div>
                     
                     <div class="form-group">
-                      <label>Age</label>
-                      <input type="text" class="form-control" name="age" th:field="*{age}"  readonly="readonly"/>
-                    </div>
-                    
-                    <div class="form-group" th:classappend="${#fields.hasErrors('gender')}? 'has-error'">
-                      <label>Gender</label>
-                      <input type="text" class="form-control" name="price" th:field="*{gender}" placeholder="Enter Product Gender"/>
-                      <p th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}" th:class="text-red">Incorrect data</p>
+                      <label>Description</label>
+                      <input type="text" class="form-control" name="age" th:field="*{description}"  readonly="readonly"/>
                     </div>
 
+                    
+                    <div class="form-group" th:classappend="${#fields.hasErrors('categoryId')}? 'has-error'">
+						<label>Category</label>
+						<div>
+							<select class="form-control" th:field="*{categoryId}">
+							  <option th:each="cat : ${categoriesList}" 
+							          th:value="${cat.id}" 
+							          th:text="${cat.name}">Category</option>
+							</select>
+					  	<p th:if="${#fields.hasErrors('categoryId')}" th:errors="*{categoryId}" th:class="text-red">Incorrect data</p>
+						</div>
+						
+    				</div>
 					    				
 					<div class="box-footer">
 	                    <button type="submit" class="btn btn-primary">Submit</button>

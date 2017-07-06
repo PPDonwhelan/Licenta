@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  *
  */
 @Controller
-public class CheckoutController extends JCartSiteBaseController
+public class CheckoutController extends SiteBaseController
 {
 
 	@Override

@@ -45,13 +45,13 @@ public class SubjectController extends AdminBaseController
 		return catalogService.getAllCategories();
 	}
 	
-	@RequestMapping(value="/subject", method=RequestMethod.GET)
+	@RequestMapping(value="/subjects", method=RequestMethod.GET)
 	public String listProducts(Model model) {
 		model.addAttribute("subject",catalogService.getAllSubjects());
 		return viewPrefix+"subject";
 	}
 
-	@RequestMapping(value="/subject/new", method=RequestMethod.GET)
+	@RequestMapping(value="/subjects/new", method=RequestMethod.GET)
 	public String createSubject(Model model) {
 		Subject subject = new Subject();
 		model.addAttribute("subject",subject);
@@ -59,7 +59,7 @@ public class SubjectController extends AdminBaseController
 		return viewPrefix+"create_subject";
 	}
 
-	@RequestMapping(value="/subject", method=RequestMethod.POST)
+	@RequestMapping(value="/subjects", method=RequestMethod.POST)
 	public String createProduct(@Valid @ModelAttribute("subject") Subject subject, BindingResult result,
 			Model model, RedirectAttributes redirectAttributes) {
 		subjectValidator.validate(subject, result);
@@ -70,10 +70,10 @@ public class SubjectController extends AdminBaseController
 		subject.setId(subject.getId());
 		logger.debug("Created new subject with id : {} and name : {}", persistedSubject.getId(), persistedSubject.getEmail());
 		redirectAttributes.addFlashAttribute("info", "Subject created successfully");
-		return "redirect:/subject";
+		return "redirect:/subjects";
 	}
 	
-	@RequestMapping(value="/subject/{id}", method=RequestMethod.GET)
+	@RequestMapping(value="/subjects/{id}", method=RequestMethod.GET)
 	public String editProductForm(@PathVariable Integer id, Model model) {
 		Subject subject = catalogService.getSubjectById(id);
 		model.addAttribute("subject",subject);
@@ -81,7 +81,7 @@ public class SubjectController extends AdminBaseController
 	}
 
 	
-	@RequestMapping(value="/subject/{id}", method=RequestMethod.POST)
+	@RequestMapping(value="/subjects/{id}", method=RequestMethod.POST)
 	public String updateProduct(@Valid @ModelAttribute("subject") Subject subject, BindingResult result,
 			Model model, RedirectAttributes redirectAttributes) {
 		subjectValidator.validate(subject, result);
@@ -91,7 +91,7 @@ public class SubjectController extends AdminBaseController
 		Subject persistedSubject = catalogService.updateSubject(subject);
 		logger.debug("Updated subject with id : {} and name : {}", persistedSubject.getId(), persistedSubject.getEmail());
 		redirectAttributes.addFlashAttribute("info", "Subject updated successfully");
-		return "redirect:/subject";
+		return "redirect:/subjects";
 	}
 
 }

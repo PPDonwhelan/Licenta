@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 
 
 @Controller
-//public class OrderController extends JCartSiteBaseController
+//public class OrderController extends SiteBaseController
 //{
 public class OrderController
 {

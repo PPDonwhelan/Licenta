@@ -19,7 +19,7 @@ import com.rng.site.security.AuthenticatedUser;
  * @author Siva
  *
  */
-public abstract class JCartSiteBaseController
+public abstract class SiteBaseController
 {
 	protected final JCLogger logger = JCLogger.getLogger(getClass());
 	

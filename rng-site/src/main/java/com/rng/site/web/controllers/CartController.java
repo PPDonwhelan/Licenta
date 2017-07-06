@@ -25,7 +25,7 @@ import java.util.Map;
  *
  */
 @Controller
-public class CartController extends JCartSiteBaseController
+public class CartController extends SiteBaseController
 {
 	@Autowired
 	private CatalogService catalogService;

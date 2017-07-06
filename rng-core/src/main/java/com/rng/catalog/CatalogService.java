@@ -34,6 +34,11 @@ public class CatalogService {
 		return testsRepository.findAll();
 	}
 
+	public List<Tests> getAllCategoryTests(String category_name) {
+
+		return categoryRepository.getAllCategoryTests(category_name);
+	}
+
 	public TestCategory getCategoryByName(String name) {
 		return categoryRepository.getByName(name);
 	}
@@ -98,12 +103,12 @@ public class CatalogService {
 		return testsRepository.findOne(id);
 	}
 
-	public Tests getTestsName(String name) {
+	public Tests getTestsByName(String name) {
 		return testsRepository.findByName(name);
 	}
 
 	public Tests createTests (Tests test) {
-		Tests persistedTests = getTestsName(test.getName());
+		Tests persistedTests = getTestsByName(test.getName());
 		if(persistedTests != null){
 			throw new RNGException("Test name  "+ test.getName()+" already exist");
 		}

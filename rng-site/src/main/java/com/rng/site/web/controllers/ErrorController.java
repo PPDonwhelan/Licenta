@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  *
  */
 @Controller
-public class ErrorController extends JCartSiteBaseController
+public class ErrorController extends SiteBaseController
 {
 	private static final String viewPrefix = "error/";
 	

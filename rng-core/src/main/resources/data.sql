@@ -33,7 +33,7 @@ INSERT INTO users (id, email, password, name) VALUES
 (1, 'superadmin@gmail.com', '$2a$10$p3PHnpoBAnzZiL8mr3gMieMhVVSb585ajC2ZsBB0kwb4KvZKFSdNi', 'Super Admin'),
 (2, 'admin@gmail.com', '$2a$10$hKDVYxLefVHV/vtuPhWD3OigtRyOykRLDdUAp80Z1crSoS1lFqaFS', 'Admin'),
 (3, 'cms@gmail.com', '$2y$10$sYgjsgbWchrpontJNLWY3eW7A5yr2ayiSfOg0sAG2.Yw7bjWTBY4W', 'CMSGuy'),
-(4, 'anto@gmail.com', '$2y$10$9PfUMDIJtKCDsjFh5Ggwku0IQj5IlfsrejS.GnnnJ9P3H.RfZt8bW', 'Anto'),
+(4, 'anto@gmail.com', '$2a$10$ByIUiNaRfBKSV6urZoBBxe4UbJ/sS6u1ZaPORHF9AtNWAuVPVz1by', 'Anto'),
 (5, 'user@gmail.com', '$2a$10$ByIUiNaRfBKSV6urZoBBxe4UbJ/sS6u1ZaPORHF9AtNWAuVPVz1by', 'DemoUser')
 
 ;
@@ -53,8 +53,8 @@ insert into user_role(user_id, role_id) values
 ;
 
 insert into test_category(id, name, description) values
-(1,'Mostre lingvistic','Mostre obtinute intr-o limba straina'),
-(2,'Mostre web ','Mostre obtinute folosind un mijloc web'),
+(1,'Mostre lingvistice','Mostre obtinute intr-o limba straina'),
+(2,'Mostre web','Mostre obtinute folosind un mijloc web'),
 (3,'Mostre verbale','Mostre obtinute prin rostirea numerelor')
 ;
 
@@ -72,4 +72,16 @@ insert into tests(id, name, description) values
 (11,'SerialCorrelationTest','Serial Correlation Test')
 ;
 
-
+insert into tests_to_category(test_id, category_id) VALUES
+(1,1),(1,2),(1,3),
+(2,1),(2,2),(2,2),
+(3,1),(3,2),
+(4,1),(4,2),(4,3),
+(5,2),
+(6,1),(6,2),(6,3),
+(7,3),
+(8,1),(8,3),
+(9,1),(9,2),(9,3),
+(10,2),
+(11,1),(11,2),(11,3)
+;

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      layout:decorator="layout/mainLayout">
+      
+      <head>
+        <title>Subject</title>
+    </head>
+    <body>
+    	<div layout:fragment="content">
+    
+    <div class="single-subject-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-offset-2 col-md-8">
+                    <div class="subject-content-right">
+                        <div class="subject-breadcroumb">
+                            <a href="" th:href="@{/}">Home</a>
+                            <a href="" th:href="@{/categories/{name}(name=${subject.category.name})}"><span th:text="${subject.category.name}">Category Name</span></a>
+                            <a href="" th:href="@{/subjects/{email}(email=${subject.email})}"><span th:text="${subject.name}">SubjectName</span></a>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="subject-inner">
+                                    <h2 class="subject-name" th:text="${subject.name}">SubjectName</h2>
+                                    <div>
+                                        <button class="analyze_button" type="submit"
+                                        		th:onclick="'javascript:analyzeTestResult(\'' + ${subject.email} + '\');'">Analyze</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+</html>

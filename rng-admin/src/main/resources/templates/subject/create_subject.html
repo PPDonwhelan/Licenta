@@ -36,19 +36,6 @@
                       <input type="text" class="form-control" name="gender" th:field="*{gender}" placeholder="Enter Subject gender"/>
                       <p th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}" th:class="text-red">Incorrect data</p>
                     </div>
-                    
-					<div class="form-group" th:classappend="${#fields.hasErrors('categoryId')}? 'has-error'">
-						<label>Category</label>
-						<div>
-							<select class="form-control" th:field="*{categoryId}">
-							  <option th:each="cat : ${categoriesList}" 
-							          th:value="${cat.id}" 
-							          th:text="${cat.name}">Category</option>
-							</select>
-					  	<p th:if="${#fields.hasErrors('categoryId')}" th:errors="*{categoryId}" th:class="text-red">Incorrect data</p>
-						</div>
-						
-    				</div>
     				
 					<div class="box-footer">
 	                    <button type="submit" class="btn btn-primary">Submit</button>

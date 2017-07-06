@@ -18,7 +18,7 @@ import java.util.List;
 
 
 @Controller
-public class HomeController extends JCartSiteBaseController
+public class HomeController extends SiteBaseController
 {	
 	@Autowired
 	private CatalogService catalogService;
@@ -38,7 +38,7 @@ public class HomeController extends JCartSiteBaseController
 		{
 			List<Tests> tests = category.getTests();
 			List<Tests> previewTests = new ArrayList<>();
-			int noOfTestsToDisplay = 4;
+			int noOfTestsToDisplay = 10;
 			if(tests.size() > noOfTestsToDisplay){
 				Iterator<Tests> iterator = tests.iterator();
 				for (int i = 0; i < noOfTestsToDisplay; i++)
