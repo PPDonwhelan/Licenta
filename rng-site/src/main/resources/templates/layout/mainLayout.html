@@ -36,7 +36,16 @@
     <div class="header-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+
+                <div class="col-md-4">
+                    <div class="header-left">
+                        <ul class="list-unstyled list-inline">
+                            <li sec:authorize="${!isAuthenticated()}"><a href="#" th:href="@{/}"><i class="fa fa-folder-open"></i> Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
                     
                 </div>
                 
@@ -72,7 +81,7 @@
                     <form class="navbar-form navbar-right" action="#" th:action="@{/subjects}">
 			            <input type="text" name="name" placeholder="Search subjects..."/>
                         <input type="submit" value="Search"/>
-			          </form>
+                    </form>
                 </div>  
             </div>
         </div>

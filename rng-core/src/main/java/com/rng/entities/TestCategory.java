@@ -2,9 +2,8 @@ package com.rng.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 @Entity
 @Table(name="test_category")
@@ -22,12 +21,12 @@ public class TestCategory implements Serializable{
     private String description;
 
 
-    @OneToMany(cascade=CascadeType.ALL, mappedBy="id")
-    private Set<Samples> samples;
+    @OneToMany(cascade=CascadeType.ALL, mappedBy="category")
+    private List<Sample> samples;
 
     public TestCategory()
     {
-        this.samples = new HashSet<Samples>();
+        this.samples = new ArrayList<Sample>();
 
     }
     @ManyToMany(cascade=CascadeType.MERGE)
@@ -70,11 +69,11 @@ public class TestCategory implements Serializable{
         this.tests = tests;
     }
 
-    public Set<Samples> getSamples() {
+    public List<Sample> getSamples() {
         return samples;
     }
 
-    public void setSamples(Set<Samples> samples) {
+    public void setSamples(List<Sample> samples) {
         this.samples = samples;
     }
 }

@@ -25,12 +25,11 @@ public class Subject implements Serializable
 	private String gender;
 
 
-	@OneToMany(cascade=CascadeType.ALL, mappedBy="id")
-	private Set<Samples> samples;
-
+	@OneToMany(cascade=CascadeType.ALL, mappedBy="subject")
+	private Set<Sample> samples;
 	public  Subject()
 	{
-		this.samples = new HashSet<Samples>();
+		this.samples = new HashSet<Sample>();
 	}
 	public Integer getId()
 	{
@@ -66,11 +65,11 @@ public class Subject implements Serializable
 		this.gender = gender;
 	}
 
-	public Set<Samples> getSamples() {
+	public Set<Sample> getSamples() {
 		return samples;
 	}
 
-	public void setSamples(Set<Samples> samples) {
+	public void setSamples(Set<Sample> samples) {
 		this.samples = samples;
 	}
 }

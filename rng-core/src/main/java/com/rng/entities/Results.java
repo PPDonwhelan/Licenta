@@ -15,14 +15,18 @@ public class Results {
     @JoinColumn(name="id_test")
     private Tests test;
 
-    @Column(nullable=false)
+    @Column(nullable=true)
     private float p_value;
 
-    @Column(nullable=false)
+    @Column(nullable=true)
     private float low;
 
-    @Column(nullable=false)
+    @Column(nullable=true)
     private float high;
+
+    @ManyToOne(cascade=CascadeType.MERGE)
+    @JoinColumn(name="id_sample")
+    private Sample sample;
 
     public Integer getId() {
         return id;
@@ -62,5 +66,13 @@ public class Results {
 
     public void setHigh(float high) {
         this.high = high;
+    }
+
+    public Sample getSample() {
+        return sample;
+    }
+
+    public void setSample(Sample sample) {
+        this.sample = sample;
     }
 }

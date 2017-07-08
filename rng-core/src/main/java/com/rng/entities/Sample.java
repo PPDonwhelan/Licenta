@@ -6,7 +6,7 @@ import java.util.Date;
 
 @Entity
 @Table(name="samples")
-public class Samples implements Serializable{
+public class Sample implements Serializable{
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
@@ -17,15 +17,26 @@ public class Samples implements Serializable{
     private Date timestamp;
 
     @ManyToOne(cascade=CascadeType.MERGE)
-    @JoinColumn(name="id_test_category")
-    private TestCategory category;
-
-    @ManyToOne(cascade=CascadeType.MERGE)
     @JoinColumn(name="id_subject")
     private Subject subject;
 
     @Column(nullable=false,length=1024)
     private String samples;
+
+    @ManyToOne(cascade=CascadeType.ALL)
+    @JoinColumn(name="id_test_category")
+    private TestCategory category;
+
+
+//    @OneToMany(cascade=CascadeType.MERGE, mappedBy = "id")
+//    @OnDelete(action = OnDeleteAction.CASCADE)
+//    private List<Results> results;
+//
+//    public Sample()
+//    {
+//        this.results = new ArrayList<Results>();
+//
+//    }
 
     public Integer getId() {
         return id;
@@ -66,4 +77,12 @@ public class Samples implements Serializable{
     public void setSamples(String samples) {
         this.samples = samples;
     }
+
+//    public List<Results> getResults() {
+//        return results;
+//    }
+//
+//    public void setResults(List<Results> results) {
+//        this.results = results;
+//    }
 }

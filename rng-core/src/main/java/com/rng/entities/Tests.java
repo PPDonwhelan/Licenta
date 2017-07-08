@@ -1,5 +1,8 @@
 package com.rng.entities;
 
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.HashSet;
@@ -20,6 +23,7 @@ public class Tests implements Serializable {
     private String description;
 
     @OneToMany(cascade=CascadeType.ALL, mappedBy="id")
+    @OnDelete(action = OnDeleteAction.CASCADE)
     private Set<Results> results;
 
 
