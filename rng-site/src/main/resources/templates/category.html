@@ -19,22 +19,16 @@
 		                    	th:text="${category.name}">Category Name3</a>
 		                 </div>
 		                <div class="col-md-3 col-sm-6" th:each="test : ${category.tests}">
-		                    <div class="single-shop-subject">
+		                    <div class="single-test">
 		                        <h2><a href="#" th:href="@{/tests/{name}(name=${test.name})}"
 		                        		th:text="${test.name}">Tests name</a></h2>
-		                        
-		                        <div class="subject-option-shop">
-		                            <a class="analyze_button"
-		                            	data-product_id="70" rel="nofollow" href="#"
-		                            	th:onclick="'javascript:analyzeTestResult(\'' + ${test.name} + '\');'">Analyze</a>
-		                        </div>                       
+
 		                    </div>
 		                </div>
-					<p></p>
-					<p></p>
 					</div>
 
 					<div class="row">
+
 						<div class="woocommerce-info">
 							<a href="" th:href="@{/subjects}">Subjects</a>
 						</div>

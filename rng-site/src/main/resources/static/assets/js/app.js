@@ -35,32 +35,33 @@ jQuery(document).ready(function($){
 		});
 	}
 
-	function analyzeTestResult(name)
+	function analizeTestResults(name)
 	{
-		$.ajax ({ 
-	        url: '/result',
-	        type: "POST", 
-	        dataType: "json",
-	        contentType: "application/json",
-	        data : '{"name":"'+ name +'"}"',
-	        complete: function(responseData, status, xhttp){
-	        	//updateCartItemCount();
-				getTestsResults();
-	        	/*
-	        	$.bootstrapGrowl("Item added to cart", 
-	        					{ type: 'info',
-	        						offset: {
-						    			from: "top",
-						    			amount: 50
-						    		}
-	        					}
-	        	);
-	        	*/
-	        }
-	    }); 
+		// $.ajax ({
+		// 	url: '/result',
+		// 	type: "POST",
+		// 	dataType: "json",
+		// 	contentType: "application/json",
+		// 	data : '{"id":"'+ id +'"}"',
+		// 	complete: function(responseData, status, xhttp){
+		// 		//updateCartItemCount();
+		// 		analyzeSample();
+		// 	}
+		// });
+		$.ajax({
+			type: "GET",
+			url: "~/helloworld.py",
+			data: { param: name}
+		}).done(function( o ) {
+			// do something
+		});
 	}
 
-	function updateCartItemQuantity(sku, quantity)
+
+
+
+
+function updateCartItemQuantity(sku, quantity)
 	{
 		$.ajax ({ 
 	        url: '/cart/items', 

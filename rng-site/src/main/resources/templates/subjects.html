@@ -4,7 +4,7 @@
       layout:decorator="layout/mainLayout">
       
       <head>
-        <title>Subject Search Results</title>
+        <title>Subjecs</title>
     </head>
     <body>
     	<div layout:fragment="content">
@@ -14,7 +14,7 @@
 		        	
 		            <div class="row">
 		            	<div class="woocommerce-info"> 
-		            		<span class="">Subject Search Results</span>
+		            		<span class="">Subject</span>
 		                 </div>
 
 						<div class="box-body table-responsive no-padding">
@@ -27,7 +27,7 @@
 								</tr>
 								<tr th:each="subject,iterStat : ${subjects}">
 									<td th:text="${iterStat.count}">1</td>
-									<td><a href="#" th:href="@{/samples/{email}(email=${subject.email})}" th:text="${subject.email}"> Subject Name</a></td>
+									<td><a href="#" th:href="@{/sample(id=${subject.id})}"  th:text="${subject.email}"> Subject Name</a></td>
 									<td th:text="${subject.age}">Subject age</td>
 									<td th:text="${subject.gender}">Subject gender</td>
 								</tr>

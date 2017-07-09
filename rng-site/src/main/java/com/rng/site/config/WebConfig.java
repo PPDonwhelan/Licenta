@@ -26,7 +26,7 @@ import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter
 {
-	@Value("${server.port:9443}")
+	@Value("${server.port:8443}")
 	private int serverPort;
 
 	@Autowired
@@ -100,7 +100,7 @@ public class WebConfig extends WebMvcConfigurerAdapter
 	{
 		Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
 		connector.setScheme("http");
-		connector.setPort(9090);
+		connector.setPort(8080);
 		connector.setSecure(false);
 		connector.setRedirectPort(serverPort);
 

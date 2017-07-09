@@ -14,10 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-/**
- * @author Siva
- *
- */
+
 @Controller
 public class SubjectsController extends SiteBaseController
 {

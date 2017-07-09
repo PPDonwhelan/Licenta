@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      layout:decorator="layout/mainLayout">
+      
+      <head>
+        <title>Sample</title>
+    </head>
+    <body>
+    	<div layout:fragment="content">
+    
+    <div class="single-sample-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-offset-2 col-md-8">
+                    <div class="sample-content-right">
+                        <div class="sample-breadcroumb">
+                            <a href="" th:href="@{/}">Home</a>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="subject-inner">
+                                    <h2 class="sample">Samples</h2>
+                                    <div class="box-body table-responsive no-padding">
+                                        <table class="table table-hover">
+                                            <tr>
+                                                <th style="width: 10px">#</th>
+                                                <th>Timestamp</th>
+                                                <th>Email</th>
+                                                <th>Sample</th>
+                                                <th>Category</th>
+                                            </tr>
+                                            <tr th:each="sample,iterStat : ${samples}">
+                                                <td th:text="${iterStat.count}">1</td>
+                                                <td th:text="${sample.timestamp}"> Date</td>
+                                                <td th:text="${sample.subject.email}">Subject email</td>
+                                                <td th:text="${sample.samples}">Sample</td>
+                                                <td th:text="${sample.category.name}">Category</td>
+                                                <td><a th:href="@{/analyze(id=${sample.id})}"
+                                                       class="btn btn-sm btn-default"><i class="fa fa-edit"></i>
+                                                    Analyze</a></td>
+                                            </tr>
+
+
+                                        </table>
+                                    </div>
+
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  </body>
+</html>

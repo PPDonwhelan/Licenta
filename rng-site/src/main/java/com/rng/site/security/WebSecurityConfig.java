@@ -40,6 +40,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             	.antMatchers("/resources/**", "/webjars/**","/assets/**").permitAll()
                 .antMatchers("/", "/register", "/forgotPwd","/resetPwd").permitAll()
                 .antMatchers("/myAccount","/checkout","/orders").authenticated()
+                .anyRequest().authenticated()
                 .and()
             .formLogin()
                 .loginPage("/login")

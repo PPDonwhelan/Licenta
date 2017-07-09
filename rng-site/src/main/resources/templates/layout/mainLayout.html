@@ -40,7 +40,9 @@
                 <div class="col-md-4">
                     <div class="header-left">
                         <ul class="list-unstyled list-inline">
-                            <li sec:authorize="${!isAuthenticated()}"><a href="#" th:href="@{/}"><i class="fa fa-folder-open"></i> Home</a></li>
+
+                            <li sec:authorize="${!isAuthenticated()}"><a href="#" th:href="@{/home}"><i class="fa fa-user"></i> Home</a></li>
+                            <li sec:authorize="${!isAuthenticated()}"><a href="#" th:href="@{/login}"><i class="fa fa-user"></i> Login</a></li>
                         </ul>
                     </div>
                 </div>
