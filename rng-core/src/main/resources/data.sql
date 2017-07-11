@@ -56,35 +56,24 @@ insert into user_role(user_id, role_id) values
 insert into test_category(id, name, description) values
 (1,'Linguistic samples','Samples obtained in a foreigen language'),
 (2,'Web samples','Samples obtained using Google forms'),
-(3,'Oral samples','Samples obtained on time by saying out loud the numbers')
+(3,'Oral samples','Samples obtained on time by saying out loud the numbers'),
+(4,'Wrote sample','SAmple wrote on paper')
 ;
 
 insert into tests(id, name, description) values
 (1,'FreqTest','Frequency Test'),
-(2,'SerialTest','Serial Test'),
 (3,'GapTest','Gap Test'),
 (4,'PokerTest','Poker Test'),
 (5,'CouponTest','Coupon Test'),
-(6,'PermutationTest','Permutation Test'),
-(7,'RunsUpDTest','Runs up Test'),
-(8,'RunsUpIndep1Test','Runs up Independent Test'),
-(9,'RunsUpIndep2Test','Runs up Independent Test 2'),
-(10,'MaxOfTTest','Max of T Test'),
-(11,'SerialCorrelationTest','Serial Correlation Test')
+(10,'MaxOfTTest','Max of T Test')
 ;
 
 insert into tests_to_category(test_id, category_id) VALUES
-(1,1),(1,2),(1,3),
-(2,1),(2,2),(2,2),
-(3,1),(3,2),
-(4,1),(4,2),(4,3),
-(5,2),
-(6,1),(6,2),(6,3),
-(7,3),
-(8,1),(8,3),
-(9,1),(9,2),(9,3),
-(10,2),
-(11,1),(11,2),(11,3)
+(1,1),(1,2),(1,3),(1,4),
+(3,1),(3,2),(3,3),(3,4),
+(4,1),(4,2),(4,3),(4,4),
+(5,1),(5,2),(5,3),(5,4),
+(10,2)
 ;
 
 INSERT INTO subjects (id, email, age, gender) VALUES

@@ -53,7 +53,7 @@ public class UserController extends SiteBaseController{
         String encodedPwd = passwordEncoder.encode(password);
         user.setPassword(encodedPwd);
 
-        User persistedCustomer = userService.createCustomer(user);
+        User persistedCustomer = userService.createUser(user);
         logger.debug("Created new user with id : {} and email : {}", persistedCustomer.getId(), persistedCustomer.getEmail());
         redirectAttributes.addFlashAttribute("info", "User created successfully");
         return "redirect:/login";
@@ -64,7 +64,7 @@ public class UserController extends SiteBaseController{
     protected String myAccount(Model model)
     {
         String email = getCurrentUser().getCustomer().getEmail();
-        User user = userService.getCustomerByEmail(email);
+        User user = userService.getUserByEmail(email);
         model.addAttribute("user", user);
         return "myAccount";
     }

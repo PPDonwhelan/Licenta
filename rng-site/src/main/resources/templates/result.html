@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      layout:decorator="layout/mainLayout">
+      
+      <head>
+        <title>Result</title>
+    </head>
+    <body>
+    	<div layout:fragment="content">
+    		<div class="single-subject-area">
+		        <div class="zigzag-bottom"></div>
+		        <div class="container">
+		        	
+		            <div class="row" th:each="cat : ${results}">
+		            	<div class="woocommerce-info">
+		            		<h2>Results</h2>
+							<div class="row">
+								<div class="woocommerce-info">
+									<a href="" th:href="@{/home}">Home</a>
+								</div>
+							</div>
+		                 </div>
+						<div class="woocommerce-info">
+							<h3>Description</h3>
+							<div class="row">
+								<div class="woocommerce-info">
+									<p>
+										The p-value must be sitting between Low value and High value
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="box-body table-responsive no-padding">
+							<table class="table table-hover">
+								<tr>
+									<th style="width: 10px">#</th>
+									<th>Subject</th>
+									<th>P-value</th>
+									<th>Low</th>
+									<th>High</th>
+									<th>Sample</th>
+								</tr>
+								<tr th:each="result,iterStat : ${results}">
+									<td th:text="${iterStat.count}">1</td>
+									<td th:text="${result.sample.subject.email}"> Subject Name</td>
+									<td th:text="${result.p_value}">P-value</td>
+									<td th:text="${result.low}">Low Value</td>
+									<td th:text="${result.high}">High Value</td>
+									<td th:text="${result.sample.samples}">Sample</td>
+								</tr>
+
+							</table>
+						</div>
+					</div>
+				</div>
+		    </div>
+    	</div>
+    	
+    </body>
+    
+</html>

@@ -21,37 +21,38 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-8">
                                 <div class="subject-inner">
                                     <h2 class="sample">Samples</h2>
                                     <div class="box-body table-responsive no-padding">
-                                        <table class="table table-hover">
-                                            <tr>
-                                                <th style="width: 10px">#</th>
-                                                <th>Timestamp</th>
-                                                <th>Email</th>
-                                                <th>Sample</th>
-                                                <th>Category</th>
-                                                <th>Tests available</th>
-                                            </tr>
-                                            <tr  th:each="sample,iterStat : ${sample}">
-                                                <td th:text="${iterStat.count}">1</td>
-                                                <td th:text="${sample.timestamp}"> Date</td>
-                                                <td th:text="${sample.subject.email}">Subject email</td>
-                                                <td th:text="${sample.samples}">Sample</td>
-                                                <td><a class="analyze_button" data-test_name="" data-test_id=""
-                                                       rel="nofollow" href="#"
-                                                       th:onclick="'javascript:analizeTestResults(\'' + ${sample.category.name} + '\');'" th:text="${sample.category.name}">Category</a></td>
-                                                <td><tr th:each="test : ${sample.category.tests}">
-                                                   <td><a class="analyze_button" data-test_name="" data-test_id=""
-                                                        rel="nofollow" href="#"
-                                                        th:onclick="'javascript:analizeTestResults(\'' + ${test.name} + '\');'" th:text="${test.name}">Analyze</a></td>
-                                                    </tr>
-                                                </td>
-                                            </tr>
 
+                                            <table class="table table-hover"  th:object="${sample}" >
+                                                <tr>
+                                                    <th style="width: 10px">#</th>
+                                                    <th>Timestamp</th>
+                                                    <th>Email</th>
+                                                    <th>Sample</th>
+                                                    <th>Category</th>
+                                                    <th>Tests available</th>
+                                                </tr>
+                                                <tr  th:each="sample,iterStat : ${sample}">
+                                                    <td th:text="${iterStat.count}">1</td>
+                                                    <td th:text="${sample.timestamp}"> Date</td>
+                                                    <td th:text="${sample.subject.email}">Subject email</td>
+                                                    <td th:text="${sample.samples}">Sample</td>
+                                                    <form th:action="@{/analyze_category(sample_id=${sample.id},category_id=${sample.category.id})}" th:object="${result}" method="post">
+                                                        <td> <button type="submit" class="btn btn-primary" th:text="${sample.category.name}">Category</button></td>
+                                                    </form>
+                                                        <td><tr th:each="test : ${sample.category.tests}">
+                                                            <form th:action="@{/analyze(sample_id=${sample.id},test_id=${test.id})}" th:object="${result}" method="post">
+                                                               <td><button type="submit" class="btn btn-primary" th:text="${test.name}">Category</button></td>
+                                                            </form>
+                                                            </tr>
+                                                        </td>
 
-                                        </table>
+                                                </tr>
+                                            </table>
+
                                     </div>
 
 

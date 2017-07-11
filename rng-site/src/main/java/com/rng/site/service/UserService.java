@@ -18,19 +18,19 @@ public class UserService {
 	@Autowired
 	UserRepository customerRepository;
 	
-	public User getCustomerByEmail(String email) {
+	public User getUserByEmail(String email) {
 		return customerRepository.findByEmail(email);
 	}
 
-	public User createCustomer(User customer) {
+	public User createUser(User customer) {
 		return customerRepository.save(customer);
 	}
 
-	public List<User> getAllCustomers() {
+	public List<User> getAllUsers() {
 		return customerRepository.findAll();
 	}
 
-	public User getCustomerById(Integer id) {
+	public User getUserById(Integer id) {
 		return customerRepository.findOne(id);
 	}
 

@@ -34,10 +34,10 @@ public class CatalogService {
 		return testsRepository.findAll();
 	}
 
-	public List<Tests> getAllCategoryTests(String category_name) {
-
-		return categoryRepository.getAllCategoryTests(category_name);
-	}
+//	public List<Tests> getAllCategoryTests(Integer id) {
+//
+//		return testsRepository.getAllTestsByCategoryId(id);
+//	}
 
 	public TestCategory getCategoryByName(String name) {
 		return categoryRepository.getByName(name);

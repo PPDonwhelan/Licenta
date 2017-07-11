@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/rng.iml" filepath="$PROJECT_DIR$/rng.iml" />
       <module fileurl="file://$PROJECT_DIR$/rng-admin/rng-admin.iml" filepath="$PROJECT_DIR$/rng-admin/rng-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/rng-core/rng-core.iml" filepath="$PROJECT_DIR$/rng-core/rng-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/rng-site/rng-site.iml" filepath="$PROJECT_DIR$/rng-site/rng-site.iml" />

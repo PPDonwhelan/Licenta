@@ -15,21 +15,13 @@
 		            <div class="row">
 		            	
 		                <div class="col-md-offset-3 col-md-6" >
-		                	<form id="login-form-wrap" th:action="@{/register}" th:object="${customer}" method="post">
+		                	<form id="login-form-wrap" th:action="@{/register}" th:object="${user}" method="post">
 
 								<p class="form-row form-row-first">
-                                    <label for="firstName">FirstName <span class="required">*</span>
+                                    <label for="name">Name <span class="required">*</span>
                                     </label>
-                                    <input type="text" th:field="*{firstName}" class="input-text"/>
-                                    <p th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}" th:errorclass="text-danger">Incorrect data</p>
-                                </p>
-                                
-                                <p class="form-row form-row-first">
-                                    <label for="lastName">LastName <span class="required">*</span>
-                                    </label>
-                                    <input type="text" th:field="*{lastName}" class="input-text"/>
-                                    <p th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}" th:errorclass="text-danger">Incorrect data</p>
-                                    
+                                    <input type="text" th:field="*{name}" class="input-text"/>
+                                    <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}" th:errorclass="text-danger">Incorrect data</p>
                                 </p>
                                 
                                 <p class="form-row form-row-first">
@@ -44,13 +36,7 @@
                                     <input type="password" th:field="*{password}" class="input-text" placeholder="Password"/>
                                     <p th:if="${#fields.hasErrors('password')}" th:errors="*{password}" th:errorclass="text-danger">Incorrect data</p>
                                 </p>
-                                
-                                <p class="form-row form-row-first">
-                                    <label for="phone">Phone <span class="required">*</span>
-                                    </label>
-                                    <input type="text" th:field="*{phone}" class="input-text"/>
-                                    <p th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}" th:errorclass="text-danger">Incorrect data</p>
-                                </p>
+
                                 <div class="clear"></div>
 
 

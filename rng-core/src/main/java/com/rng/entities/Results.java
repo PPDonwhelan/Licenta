@@ -8,7 +8,7 @@ public class Results {
 
     private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
 
     @ManyToOne(cascade=CascadeType.MERGE)
@@ -16,17 +16,18 @@ public class Results {
     private Tests test;
 
     @Column(nullable=true)
-    private float p_value;
+    private Double p_value;
 
     @Column(nullable=true)
-    private float low;
+    private Double low;
 
     @Column(nullable=true)
-    private float high;
+    private Double high;
 
     @ManyToOne(cascade=CascadeType.MERGE)
     @JoinColumn(name="id_sample")
     private Sample sample;
+
 
     public Integer getId() {
         return id;
@@ -44,27 +45,27 @@ public class Results {
         this.test = test;
     }
 
-    public float getP_value() {
+    public Double getP_value() {
         return p_value;
     }
 
-    public void setP_value(float p_value) {
+    public void setP_value(Double p_value) {
         this.p_value = p_value;
     }
 
-    public float getLow() {
+    public Double getLow() {
         return low;
     }
 
-    public void setLow(float low) {
+    public void setLow(Double low) {
         this.low = low;
     }
 
-    public float getHigh() {
+    public Double getHigh() {
         return high;
     }
 
-    public void setHigh(float high) {
+    public void setHigh(Double high) {
         this.high = high;
     }
 

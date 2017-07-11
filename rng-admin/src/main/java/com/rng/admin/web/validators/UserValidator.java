@@ -12,10 +12,6 @@ import org.springframework.validation.Validator;
 
 import com.rng.entities.User;
 
-/**
- * @author Siva
- *
- */
 @Component
 public class UserValidator implements Validator
 {
