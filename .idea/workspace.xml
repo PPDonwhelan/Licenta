@@ -2,54 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00ff559f-1f22-43c0-9f43-1fb8b75d34fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/samples/create_sample.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/orders/OrderRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/orders/OrderService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/CartController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/CheckoutController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/OrderController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/Cart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/LineItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/models/OrderDTO.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/config/WebConfig.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/config/WebConfigAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/CustomUserDetailsService.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/UserDetailsServiceAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/security/WebSecurityConfigAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/ErrorController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/ErrorControllerAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/HomeController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/HomeControllerAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/PermissionController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/PermissionControllerAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/RoleController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/RoleControllerAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/SubjectController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/SubjectControllerAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/TestCategoryController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/TestCategoryControllerAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/TestController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/TestControllerAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/UserAuthController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/UserAuthControllerAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/UserController.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/controllers/UserControllerAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/CategoryValidator.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/CategoryValidatorAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/SubjectValidator.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/SubjectValidatorAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/TestsValidator.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/TestsValidatorAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/UserValidator.java" afterPath="$PROJECT_DIR$/rng-admin/src/main/java/com/rng/admin/web/validators/UserValidatorAdmin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Licenta.doc" afterPath="$PROJECT_DIR$/Licenta.doc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/rng-admin.iml" afterPath="$PROJECT_DIR$/rng-admin/rng-admin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/application-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/tests/create_test.html" afterPath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/tests/create_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Permission.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Permission.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Sample.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Sample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Tests.java" afterPath="$PROJECT_DIR$/rng-core/src/main/java/com/rng/entities/Tests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-core/src/main/resources/data.sql" afterPath="$PROJECT_DIR$/rng-core/src/main/resources/data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/service/Analyze.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/service/Analyze.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/HomeController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/ResultController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/ResultController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/SamplesController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/SamplesController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/SiteBaseController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/SiteBaseController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/TestController.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/controllers/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/validators/ResultValidator.java" afterPath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/validators/ResultValidator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/analyze.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/analyze.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/category.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/category.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/layout/mainLayout.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/layout/mainLayout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/result.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/result.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/tests.html" afterPath="$PROJECT_DIR$/rng-site/src/main/resources/templates/tests.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rngtests.py" afterPath="$PROJECT_DIR$/rngtests.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/orders/edit_order.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-admin/src/main/resources/templates/orders/orders.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-site/src/main/java/com/rng/site/web/validators/CustomerValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/cart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/orderconfirmation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rng-site/src/main/resources/templates/view_order.html" afterPath="" />
     </list>
     <ignored path="jcart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -142,16 +100,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_order.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rng-admin/src/main/resources/templates/orders/edit_order.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2196,7 +2144,7 @@
       <workItem from="1499221686536" duration="2650000" />
       <workItem from="1499272422560" duration="25611000" />
       <workItem from="1499403372536" duration="42779000" />
-      <workItem from="1499748187769" duration="79574000" />
+      <workItem from="1499748187769" duration="80197000" />
     </task>
     <servers />
   </component>
@@ -2206,11 +2154,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202472000" />
+    <option name="totallyTimeSpent" value="203095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2225,7 +2173,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18230277" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18230277" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.47014925" order="1" side_tool="false" content_ui="tabs" />
