@@ -240,7 +240,7 @@ class CouponTest( EmpiricalTest ):
 
     def testFreq( self, list, d ):
         """Return the actual frequency table for a set of samples over a given domain."""
-        j, s, count = -1, 0, (5*d)*[0]
+        j, s, count = -1, 0, (15*d)*[0]
         while s != self.nSeq and j != len(list)-1:
             q, r, occurs = 0, 0, (d)*[0]
             while j != len(list)-1 and q != d:
@@ -364,7 +364,15 @@ class MaxOfTTest( EmpiricalTest ):
     def testFreq( self, list, d ):
         """Return the actual frequency table for a set of samples over a given domain."""
         t= self.T
-        newList= [ max( list[i*t:i*t+t] ) for i in range( int(len(list)/t )) ]
+        newList=int(len(list)/t )*[0]
+        maxi=0;
+        for i in range( int(len(list)/t )):
+            maxi=0
+            for j in range(i*t,i*t+t):
+                if(maxi<list[j]):
+                    maxi=list[j]
+            newList[i]=maxi
+
         freqTable= d*[0]
         for v in newList:
             freqTable[v]+=1

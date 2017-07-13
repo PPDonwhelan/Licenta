@@ -13,7 +13,7 @@ import org.springframework.validation.Validator;
 import com.rng.entities.User;
 
 @Component
-public class UserValidator implements Validator
+public class UserValidatorAdmin implements Validator
 {
 	@Autowired protected MessageSource messageSource;
 	@Autowired protected SecurityService securityService;

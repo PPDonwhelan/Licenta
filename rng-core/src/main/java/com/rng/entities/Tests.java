@@ -5,8 +5,8 @@ import org.hibernate.annotations.OnDeleteAction;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name="tests")
@@ -22,16 +22,13 @@ public class Tests implements Serializable {
     @Column(nullable=false,length=1024)
     private String description;
 
-    @OneToMany(cascade=CascadeType.ALL, mappedBy="id")
+    @OneToMany(cascade=CascadeType.ALL, mappedBy="test")
     @OnDelete(action = OnDeleteAction.CASCADE)
-    private Set<Results> results;
-
-
-
+    private List<Results> results;
 
     public Tests()
     {
-        this.results = new HashSet<Results>();
+        this.results = new ArrayList<>();
 
     }
 
@@ -60,11 +57,11 @@ public class Tests implements Serializable {
         this.description = description;
     }
 
-    public Set<Results> getResults() {
+    public List<Results> getResults() {
         return results;
     }
 
-    public void setResults(Set<Results> results) {
+    public void setResults(List<Results> results) {
         this.results = results;
     }
 

@@ -1,8 +1,13 @@
 package com.rng.entities;
 
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name="samples")
@@ -28,15 +33,15 @@ public class Sample implements Serializable{
     private TestCategory category;
 
 
-//    @OneToMany(cascade=CascadeType.MERGE, mappedBy = "id")
-//    @OnDelete(action = OnDeleteAction.CASCADE)
-//    private List<Results> results;
-//
-//    public Sample()
-//    {
-//        this.results = new ArrayList<Results>();
-//
-//    }
+    @OneToMany(cascade=CascadeType.MERGE, mappedBy = "sample")
+    @OnDelete(action = OnDeleteAction.CASCADE)
+    private List<Results> results;
+
+    public Sample()
+    {
+        this.results = new ArrayList<Results>();
+
+    }
 
     public Integer getId() {
         return id;
@@ -78,11 +83,11 @@ public class Sample implements Serializable{
         this.samples = samples;
     }
 
-//    public List<Results> getResults() {
-//        return results;
-//    }
-//
-//    public void setResults(List<Results> results) {
-//        this.results = results;
-//    }
+    public List<Results> getResults() {
+        return results;
+    }
+
+    public void setResults(List<Results> results) {
+        this.results = results;
+    }
 }

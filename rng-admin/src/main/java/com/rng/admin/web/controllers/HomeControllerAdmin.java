@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller
-public class HomeController extends AdminBaseController
+public class HomeControllerAdmin extends AdminBaseController
 {	
 	@Override
 	protected String getHeaderTitle() {

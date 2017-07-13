@@ -4,7 +4,7 @@
       layout:decorator="layout/mainLayout">
       
       <head>
-        <title>Test - New</title>
+        <title>Sample - New</title>
     </head>
     <body>
         
@@ -12,11 +12,11 @@
 	        
               <div class="box box-warning">
                 <div class="box-header with-border">
-                  <h3 class="box-title">Create New Test</h3>
+                  <h3 class="box-title">Create New Sample</h3>
                 </div><!-- /.box-header -->
                 <div class="box-body">
-                  <form role="form" th:action="@{/tests}" th:object="${tests}" method="post" enctype="multipart/form-data">
-                    <p th:if="${#fields.hasErrors('global')}" th:errors="*{global}" th:class="text-red">Incorrect data</p>
+                  <form role="form" th:action="@{/tests}" th:object="${sample}" method="post" enctype="multipart/form-data">
+                    <p th:if="${#fields.hasErrors('global')}" th:errors="*{sample}" th:class="text-red">Incorrect data</p>
 
                     
                     <div class="form-group" th:classappend="${#fields.hasErrors('name')}? 'has-error'">

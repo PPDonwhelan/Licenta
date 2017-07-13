@@ -2,61 +2,123 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
 	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
       layout:decorator="layout/mainLayout">
-      
-      <head>
-        <title>Result</title>
-    </head>
+<head>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript">
+		/*<![CDATA[*/
+		google.charts.load('current', {'packages':['corechart']});
+		google.charts.setOnLoadCallback(drawVisualization);
+
+		function drawVisualization() {
+			// Some raw data (not necessarily accurate)
+
+			var table = document.getElementById("datatable");
+			var n = table.rows.length;
+			//parcurgere tabel
+			var tableRows = [];
+			var tableColumns = [];
+			tableColumns.push("P-value")
+			for (var r = 1; r < n; r++) {
+				var m = table.rows[r].cells.length;
+				for (var c = 0; c < m; c++) {
+					if (c == 5) {
+						var numeTest = table.rows[r].cells[c].innerHTML;
+						tableColumns.push(numeTest);
+					}
+				}
+			}
+			tableRows.push(tableColumns);
+			var tableColumns = [];
+			tableColumns.push("p_value")
+			for (var r = 1; r < n; r++) {
+				var m = table.rows[r].cells.length;
+				var p_val;
+				var low;
+				var high;
+				for (var c = 0; c < m; c++) {
+					if (c == 2) {
+						p_val = parseFloat(table.rows[r].cells[c].innerHTML);
+						tableColumns.push(p_val);
+					}
+					if (c == 3) {
+						low = parseFloat(table.rows[r].cells[c].innerHTML);
+					}
+					if (c == 4) {
+						high = parseFloat(table.rows[r].cells[c].innerHTML);
+					}
+				}
+				if (p_val > low) {
+					if (p_val < high) {
+						table.rows[r].style.backgroundColor = "#98FB98";
+					} else {
+						table.rows[r].style.backgroundColor = "#FA8072";
+
+					}
+				} else {
+					table.rows[r].style.backgroundColor = "#FA8072";
+				}
+			}
+			tableRows.push(tableColumns);
+			//
+
+			var data = google.visualization.arrayToDataTable(tableRows);
+
+			var options = {
+				title: 'P_value by Test',
+				vAxis: {title: 'P-value'},
+				hAxis: {title: 'Tests'},
+				seriesType: 'bars',
+				series: {5: {type: 'line'}}
+			};
+
+			var chart = new google.visualization.ComboChart(document.getElementById('line_top_x'));
+			chart.draw(data, options);
+		}
+
+		/*]]>*/
+	</script>
+
+	<title>Result</title>
+</head>
     <body>
     	<div layout:fragment="content">
     		<div class="single-subject-area">
 		        <div class="zigzag-bottom"></div>
 		        <div class="container">
 		        	
-		            <div class="row" th:each="cat : ${results}">
+
 		            	<div class="woocommerce-info">
 		            		<h2>Results</h2>
-							<div class="row">
-								<div class="woocommerce-info">
-									<a href="" th:href="@{/home}">Home</a>
-								</div>
-							</div>
 		                 </div>
-						<div class="woocommerce-info">
-							<h3>Description</h3>
-							<div class="row">
-								<div class="woocommerce-info">
-									<p>
-										The p-value must be sitting between Low value and High value
-									</p>
-								</div>
-							</div>
-						</div>
 
 						<div class="box-body table-responsive no-padding">
-							<table class="table table-hover">
-								<tr>
+							<table class="table table-hover" id="datatable">
+								<tr >
 									<th style="width: 10px">#</th>
 									<th>Subject</th>
 									<th>P-value</th>
 									<th>Low</th>
 									<th>High</th>
+									<th>Test Name</th>
 									<th>Sample</th>
 								</tr>
-								<tr th:each="result,iterStat : ${results}">
+								<tr class="color" th:each="result,iterStat : ${results}">
 									<td th:text="${iterStat.count}">1</td>
 									<td th:text="${result.sample.subject.email}"> Subject Name</td>
 									<td th:text="${result.p_value}">P-value</td>
 									<td th:text="${result.low}">Low Value</td>
 									<td th:text="${result.high}">High Value</td>
+									<td th:text="${result.test.name}">Test Name</td>
 									<td th:text="${result.sample.samples}">Sample</td>
 								</tr>
 
 							</table>
 						</div>
-					</div>
+					<div id="line_top_x"></div>
 				</div>
 		    </div>
     	</div>
+
     	
     </body>
     

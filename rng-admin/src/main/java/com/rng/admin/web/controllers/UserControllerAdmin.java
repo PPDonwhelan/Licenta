@@ -3,14 +3,8 @@
  */
 package com.rng.admin.web.controllers;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.validation.Valid;
-
-import com.rng.admin.web.validators.UserValidator;
+import com.rng.admin.security.SecurityUtil;
+import com.rng.admin.web.validators.UserValidatorAdmin;
 import com.rng.entities.Role;
 import com.rng.entities.User;
 import com.rng.security.SecurityService;
@@ -26,19 +20,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.rng.admin.security.SecurityUtil;
+import javax.validation.Valid;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-/**
- * @author Siva
- *
- */
 @Controller
 @Secured(SecurityUtil.MANAGE_USERS)
-public class UserController extends AdminBaseController
+public class UserControllerAdmin extends AdminBaseController
 {
 	private static final String viewPrefix = "users/";
 	@Autowired protected SecurityService securityService;
-	@Autowired private UserValidator userValidator;
+	@Autowired private UserValidatorAdmin userValidatorAdmin;
 	@Autowired protected PasswordEncoder passwordEncoder;
 	
 	@Override
@@ -71,7 +65,7 @@ public class UserController extends AdminBaseController
 	@RequestMapping(value="/users", method=RequestMethod.POST)
 	public String createUser(@Valid @ModelAttribute("user") User user, BindingResult result, 
 			Model model, RedirectAttributes redirectAttributes) {
-		userValidator.validate(user, result);
+		userValidatorAdmin.validate(user, result);
 		if(result.hasErrors()){
 			return viewPrefix+"create_user";
 		}

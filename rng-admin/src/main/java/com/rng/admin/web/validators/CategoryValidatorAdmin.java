@@ -4,15 +4,16 @@
 package com.rng.admin.web.validators;
 
 import com.rng.catalog.CatalogService;
-import com.rng.entities.Tests;
+import com.rng.entities.TestCategory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
+
 @Component
-public class TestsValidator implements Validator
+public class CategoryValidatorAdmin implements Validator
 {
 	@Autowired protected MessageSource messageSource;
 	@Autowired protected CatalogService catalogService;
@@ -20,17 +21,17 @@ public class TestsValidator implements Validator
 	@Override
 	public boolean supports(Class<?> clazz)
 	{
-		return Tests.class.isAssignableFrom(clazz);
+		return TestCategory.class.isAssignableFrom(clazz);
 	}
 	
 	@Override
 	public void validate(Object target, Errors errors)
 	{
-		Tests tests = (Tests) target;
-		String name = tests.getName();
-		Tests p = catalogService.getTestsByName(name);
-		if(p != null){
-			errors.rejectValue("name", "error.exists", new Object[]{name}, "Tests name: "+name+" already exists");
+		TestCategory category = (TestCategory) target;
+		String name = category.getName();
+		TestCategory categoryByName = catalogService.getCategoryByName(name);
+		if(categoryByName != null){
+			errors.rejectValue("name", "error.exists", new Object[]{name}, "Category "+category.getName()+" already exists");
 		}
 	}
 	

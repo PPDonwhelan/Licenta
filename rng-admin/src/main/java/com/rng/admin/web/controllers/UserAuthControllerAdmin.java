@@ -21,7 +21,7 @@ import org.thymeleaf.context.Context;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
-public class UserAuthController extends AdminBaseController
+public class UserAuthControllerAdmin extends AdminBaseController
 {
 	private static final String viewPrefix = "public/";
 	

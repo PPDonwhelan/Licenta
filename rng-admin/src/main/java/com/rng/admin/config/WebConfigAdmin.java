@@ -29,7 +29,7 @@ import javax.servlet.Filter;
 
 
 @Configuration
-public class WebConfig extends WebMvcConfigurerAdapter
+public class WebConfigAdmin extends WebMvcConfigurerAdapter
 {   
 	@Value("${server.port:9443}") private int serverPort;
 	@SuppressWarnings("SpringJavaAutowiringInspection")

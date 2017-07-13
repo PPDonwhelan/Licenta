@@ -43,11 +43,10 @@
                                                     <form th:action="@{/analyze_category(sample_id=${sample.id},category_id=${sample.category.id})}" th:object="${result}" method="post">
                                                         <td> <button type="submit" class="btn btn-primary" th:text="${sample.category.name}">Category</button></td>
                                                     </form>
-                                                        <td><tr th:each="test : ${sample.category.tests}">
+                                                        <td th:each="test : ${sample.category.tests}">
                                                             <form th:action="@{/analyze(sample_id=${sample.id},test_id=${test.id})}" th:object="${result}" method="post">
-                                                               <td><button type="submit" class="btn btn-primary" th:text="${test.name}">Category</button></td>
+                                                               <button type="submit" class="btn btn-primary" th:text="${test.name}">Category</button>
                                                             </form>
-                                                            </tr>
                                                         </td>
 
                                                 </tr>

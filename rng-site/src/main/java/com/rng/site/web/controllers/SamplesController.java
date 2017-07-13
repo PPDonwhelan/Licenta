@@ -67,13 +67,13 @@ public class SamplesController extends SiteBaseController
 	}
 
 	@RequestMapping(value="/analyze", method=RequestMethod.POST)
-	public String analyze(@RequestParam(name="sample_id", defaultValue="") Integer sample_id, @Valid @ModelAttribute("test_id")  Integer test_id, BindingResult bindingResult,
+	public String analyze(@RequestParam(name="sample_id", defaultValue="") Integer sample_id, @Valid @ModelAttribute("test_id")  Integer test_id,
 						  Model model, RedirectAttributes redirectAttributes)
 	{
 		String redirect="redirect:/result/"+sample_id.toString();
-
-		resultValidator.validate(test_id,sample_id, bindingResult);
-		if(bindingResult.hasErrors()){
+		String error="";
+		error=resultValidator.validate(test_id,sample_id);
+		if(error!=""){
 			return redirect;
 		}
 
@@ -96,12 +96,14 @@ public class SamplesController extends SiteBaseController
 						  Model model, RedirectAttributes redirectAttributes)
 	{
 		String redirect="redirect:/result?category_id="+category_id.toString()+"&sample_id="+sample_id.toString();
+		String error="";
 		TestCategory category=catalogService.getCategoryById(category_id);
 		List<Tests> tests= category.getTests();
 		for (int i =0; i< tests.size(); i++)
 		{
-			resultValidator.validate(tests.get(i).getId(),sample_id, bindingResult);
-			if(bindingResult.hasErrors()){
+			error=resultValidator.validate(tests.get(i).getId(),sample_id);
+			if(!error.equals("")){
+				error="";
 			}
 			else{
 				Sample sample = sampleService.getSampleById(sample_id);

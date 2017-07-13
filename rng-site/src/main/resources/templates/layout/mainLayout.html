@@ -41,8 +41,8 @@
                     <div class="header-left">
                         <ul class="list-unstyled list-inline">
 
-                            <li sec:authorize="${!isAuthenticated()}"><a href="#" th:href="@{/home}"><i class="fa fa-user"></i> Home</a></li>
-                            <li sec:authorize="${!isAuthenticated()}"><a href="#" th:href="@{/login}"><i class="fa fa-user"></i> Login</a></li>
+                            <li sec:authorize="${isAuthenticated()}"><a href="#" th:href="@{/home}"><i class="fa fa-folder-open"></i> Home</a></li>
+                            <li sec:authorize="${isAuthenticated()}"><a href="#" th:href="@{/subjects}"><i class="fa fa-user"></i> Subjects</a></li>
                         </ul>
                     </div>
                 </div>
@@ -57,6 +57,7 @@
                         	
                             <li sec:authorize="${!isAuthenticated()}"><a href="#" th:href="@{/login}"><i class="fa fa-user"></i> Login</a></li>
                             <li sec:authorize="${!isAuthenticated()}"><a href="#" th:href="@{/register}"><i class="fa fa-user"></i> Register</a></li>
+                            <li sec:authorize="${isAuthenticated()}"><a href="#" a href="https://localhost:9443/"><i class="fa fa-user"></i> Administrator</a></li>
                             <li sec:authorize="${isAuthenticated()}"><a href="#" th:href="@{/myAccount}"><i class="fa fa-user"></i> My Account</a></li>
                             <li sec:authorize="${isAuthenticated()}"><a href="#" th:href="@{/logout}"><i class="fa fa-user"></i> Logout</a></li>
                         </ul>

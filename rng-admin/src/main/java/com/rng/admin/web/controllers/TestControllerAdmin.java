@@ -4,7 +4,7 @@
 package com.rng.admin.web.controllers;
 
 import com.rng.admin.security.SecurityUtil;
-import com.rng.admin.web.validators.TestsValidator;
+import com.rng.admin.web.validators.TestsValidatorAdmin;
 import com.rng.catalog.CatalogService;
 import com.rng.entities.TestCategory;
 import com.rng.entities.Tests;
@@ -25,13 +25,13 @@ import java.util.List;
 
 @Controller
 @Secured(SecurityUtil.MANAGE_SUBJECTS)
-public class TestController extends AdminBaseController
+public class TestControllerAdmin extends AdminBaseController
 {
 	private static final String viewPrefix = "tests/";
 	@Autowired
 	private CatalogService catalogService;
 	
-	@Autowired private TestsValidator testsValidator;
+	@Autowired private TestsValidatorAdmin testsValidatorAdmin;
 	
 	@Override
 	protected String getHeaderTitle()
@@ -56,13 +56,13 @@ public class TestController extends AdminBaseController
 		Tests test = new Tests();
 		model.addAttribute("tests",test);
 		//model.addAttribute("categoriesList",catalogService.getAllCategories());
-		return viewPrefix+"create_subject";
+		return viewPrefix+"create_test";
 	}
 
 	@RequestMapping(value="/tests", method=RequestMethod.POST)
 	public String createProduct(@Valid @ModelAttribute("tests") Tests test, BindingResult result,
 			Model model, RedirectAttributes redirectAttributes) {
-		testsValidator.validate(test, result);
+		testsValidatorAdmin.validate(test, result);
 		if(result.hasErrors()){
 			return viewPrefix+"create_subject";
 		}
@@ -84,7 +84,7 @@ public class TestController extends AdminBaseController
 	@RequestMapping(value="/tests/{id}", method=RequestMethod.POST)
 	public String updateProduct(@Valid @ModelAttribute("tests") Tests tests, BindingResult result,
 			Model model, RedirectAttributes redirectAttributes) {
-		testsValidator.validate(tests, result);
+		testsValidatorAdmin.validate(tests, result);
 		if(result.hasErrors()){
 			return viewPrefix+"edit_tests";
 		}

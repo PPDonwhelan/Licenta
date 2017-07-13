@@ -47,7 +47,7 @@ public class Analyze {
     {
         try {
             PyObject result=null;
-            result=this.python_function.__call__(new PyString("PokerTest"),new PyArray(Integer.class, sample));
+            result=this.python_function.__call__(new PyString(test_name),new PyArray(Integer.class, sample));
             Object result_convert=null;
             result_convert=result.__tojava__(Object[].class);
             Object[] array_converted_result=convertToObjectArray(result_convert);

@@ -3,22 +3,14 @@
  */
 package com.rng.site.web.controllers;
 
-import javax.servlet.http.HttpServletRequest;
-
 import com.rng.common.services.JCLogger;
+import com.rng.site.security.AuthenticatedUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
-import com.rng.site.web.models.Cart;
-import com.rng.site.security.AuthenticatedUser;
-
-/**
- * @author Siva
- *
- */
 public abstract class SiteBaseController
 {
 	protected final JCLogger logger = JCLogger.getLogger(getClass());
@@ -64,15 +56,6 @@ public abstract class SiteBaseController
 	    return getCurrentUser() != null;
 	}
 	
-	protected Cart getOrCreateCart(HttpServletRequest request)
-	{
-		Cart cart = null;
-		cart = (Cart) request.getSession().getAttribute("CART_KEY");
-		if(cart == null){
-			cart = new Cart();
-			request.getSession().setAttribute("CART_KEY", cart);
-		}
-		return cart;
-	}
+
 	
 }

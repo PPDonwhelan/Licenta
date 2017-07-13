@@ -31,7 +31,7 @@ import java.util.Map;
  */
 @Controller
 @Secured(SecurityUtil.MANAGE_ROLES)
-public class RoleController extends AdminBaseController
+public class RoleControllerAdmin extends AdminBaseController
 {
 	private static final String viewPrefix = "roles/";
 	

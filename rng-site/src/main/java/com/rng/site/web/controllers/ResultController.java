@@ -31,13 +31,13 @@ public class ResultController extends SiteBaseController{
         return "Results";
     }
 
-//    @RequestMapping(value="/results", method= RequestMethod.GET)
-//    protected String result(Model model)
-//    {
-//        List<Results> results=resultService.getAllResults();
-//        model.addAttribute("results", results);
-//        return "result";
-//    }
+    @RequestMapping(value="/results", method= RequestMethod.GET)
+    protected String result(Model model)
+    {
+        List<Results> results=resultService.getAllResults();
+        model.addAttribute("results", results);
+        return "result";
+    }
 
 
 

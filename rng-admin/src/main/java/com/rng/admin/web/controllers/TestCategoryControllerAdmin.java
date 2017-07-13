@@ -1,7 +1,7 @@
 package com.rng.admin.web.controllers;
 
 import com.rng.admin.security.SecurityUtil;
-import com.rng.admin.web.validators.CategoryValidator;
+import com.rng.admin.web.validators.CategoryValidatorAdmin;
 import com.rng.catalog.CatalogService;
 import com.rng.entities.TestCategory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,13 +20,13 @@ import java.util.List;
 
 @Controller
 @Secured(SecurityUtil.MANAGE_TEST_CATEGORY)
-public class TestCategoryController extends AdminBaseController {
+public class TestCategoryControllerAdmin extends AdminBaseController {
     private static final String viewPrefix = "categories/";
 
     @Autowired
     private CatalogService catalogService;
 
-    @Autowired private CategoryValidator categoryValidator;
+    @Autowired private CategoryValidatorAdmin categoryValidatorAdmin;
 
     @Override
     protected String getHeaderTitle()
@@ -52,7 +52,7 @@ public class TestCategoryController extends AdminBaseController {
     @RequestMapping(value="/categories", method=RequestMethod.POST)
     public String createCategory(@Valid @ModelAttribute("category") TestCategory category, BindingResult result,
                                  Model model, RedirectAttributes redirectAttributes) {
-        categoryValidator.validate(category, result);
+        categoryValidatorAdmin.validate(category, result);
         if(result.hasErrors()){
             return viewPrefix+"create_category";
         }

@@ -6,7 +6,6 @@ import com.rng.site.service.ResultService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
-import org.springframework.validation.Errors;
 
 import java.util.List;
 
@@ -22,14 +21,17 @@ public class ResultValidator {
     @Autowired protected ResultService resultService;
 
 
-    public void validate(Object target1,Object target2, Errors errors)
+    public String validate(Object target1,Object target2)
     {
+        String errors="";
         Integer test_id = (Integer) target1;
         Integer sample_id = (Integer) target2;
         List<Results> testsResult = resultService.getResultsByTestAndSampleId(test_id,sample_id);
         if(testsResult != null){
-            errors.rejectValue("", "error.exists", new Object[]{testsResult}, "Results for test_id" +test_id.toString()+" already exist");
+            errors="Results for test_id" +test_id.toString()+" already exist";
         }
+        return errors;
+
     }
 
 

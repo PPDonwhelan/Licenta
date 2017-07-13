@@ -11,23 +11,30 @@
     		<div class="single-subject-area">
 		        <div class="zigzag-bottom"></div>
 		        <div class="container">
-		        	
-		            <div class="row" th:each="cat : ${categories}">
-		            	<div class="woocommerce-info"> 
-		            		<a class="" th:href="@{/categories/{name}(name=${cat.name})}"
-		            			th:text="${'Category: '+cat.name}">Test Category Name</a>
-		                 </div>
-		                <div class="col-md-3 col-sm-6" th:each="test : ${cat.tests}">
-		                    <div class="single-test">
-		                        <h2><a href="#" th:href="@{/tests/{name}(name=${test.name})}"
-		                        		th:text="${test.name}">Test Name</a></h2>
-		                    </div>
-		                </div>
-		                
-		            </div>
 					<div class="row">
-						<div class="woocommerce-info">
-							<a href="" th:href="@{/subjects}">Subjects</a>
+						<h2>Categories</h2>
+							<div class="col-md-3 col-sm-6" th:each="cat : ${categories}">
+								<div class="woocommerce-info">
+									<a class="" th:href="@{/categories/{name}(name=${cat.name})}"
+										th:text="${'Category: '+cat.name}">Test Category Name</a>
+								</div>
+							</div>
+					</div>
+					<div class="row">
+						<h2>Tests</h2>
+						<div class="col-md-3 col-sm-6" th:each="test : ${tests}">
+							<div class="woocommerce-info">
+								<a href="#" th:href="@{/tests/{name}(name=${test.name})}"
+									   th:text="${test.name}">Test Name</a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<h2>Subjects</h2>
+						<div class="col-md-3 col-sm-6">
+							<div class="woocommerce-info">
+								<a href="" th:href="@{/subjects}">Subjects</a>
+							</div>
 						</div>
 		            </div>
 		        </div>

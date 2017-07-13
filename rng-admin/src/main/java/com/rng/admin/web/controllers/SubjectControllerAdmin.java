@@ -4,7 +4,7 @@
 package com.rng.admin.web.controllers;
 
 import com.rng.admin.security.SecurityUtil;
-import com.rng.admin.web.validators.SubjectValidator;
+import com.rng.admin.web.validators.SubjectValidatorAdmin;
 import com.rng.catalog.CatalogService;
 import com.rng.entities.Subject;
 import com.rng.entities.TestCategory;
@@ -25,13 +25,13 @@ import java.util.List;
 
 @Controller
 @Secured(SecurityUtil.MANAGE_SUBJECTS)
-public class SubjectController extends AdminBaseController
+public class SubjectControllerAdmin extends AdminBaseController
 {
 	private static final String viewPrefix = "subject/";
 	@Autowired
 	private CatalogService catalogService;
 	
-	@Autowired private SubjectValidator subjectValidator;
+	@Autowired private SubjectValidatorAdmin subjectValidatorAdmin;
 	
 	@Override
 	protected String getHeaderTitle()
@@ -62,7 +62,7 @@ public class SubjectController extends AdminBaseController
 	@RequestMapping(value="/subjects", method=RequestMethod.POST)
 	public String createProduct(@Valid @ModelAttribute("subject") Subject subject, BindingResult result,
 			Model model, RedirectAttributes redirectAttributes) {
-		subjectValidator.validate(subject, result);
+		subjectValidatorAdmin.validate(subject, result);
 		if(result.hasErrors()){
 			return viewPrefix+"create_subject";
 		}
@@ -84,7 +84,7 @@ public class SubjectController extends AdminBaseController
 	@RequestMapping(value="/subjects/{id}", method=RequestMethod.POST)
 	public String updateProduct(@Valid @ModelAttribute("subject") Subject subject, BindingResult result,
 			Model model, RedirectAttributes redirectAttributes) {
-		subjectValidator.validate(subject, result);
+		subjectValidatorAdmin.validate(subject, result);
 		if(result.hasErrors()){
 			return viewPrefix+"edit_subject";
 		}

@@ -4,6 +4,80 @@
       layout:decorator="layout/mainLayout">
       
       <head>
+		  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		  <script type="text/javascript">
+			  /*<![CDATA[*/
+			  google.charts.load('current', {'packages':['corechart']});
+			  google.charts.setOnLoadCallback(drawVisualization);
+
+			  function drawVisualization() {
+				  // Some raw data (not necessarily accurate)
+
+				  var table = document.getElementById("datatable");
+				  var n = table.rows.length;
+				  //parcurgere tabel
+				  var tableRows = [];
+				  var tableColumns = [];
+				  tableColumns.push("P-value")
+				  for (var r = 1; r < n; r++) {
+					  var m = table.rows[r].cells.length;
+					  for (var c = 0; c < m; c++) {
+						  if (c == 1) {
+							  var numeSubject = table.rows[r].cells[c].innerHTML;
+							  tableColumns.push(numeSubject);
+						  }
+					  }
+				  }
+				  tableRows.push(tableColumns);
+				  var tableColumns = [];
+				  tableColumns.push("p_value")
+				  for (var r = 1; r < n; r++) {
+					  var m = table.rows[r].cells.length;
+					  var p_val;
+					  var low;
+					  var high;
+					  for (var c = 0; c < m; c++) {
+						  if (c == 2) {
+							  p_val = parseFloat(table.rows[r].cells[c].innerHTML);
+							  tableColumns.push(p_val);
+						  }
+						  if (c == 3) {
+							  low = parseFloat(table.rows[r].cells[c].innerHTML);
+						  }
+						  if (c == 4) {
+							  high = parseFloat(table.rows[r].cells[c].innerHTML);
+						  }
+					  }
+					  if (p_val > low) {
+						  if (p_val < high) {
+							  table.rows[r].style.backgroundColor = "#98FB98";
+						  } else {
+							  table.rows[r].style.backgroundColor = "#FA8072";
+
+						  }
+					  } else {
+						  table.rows[r].style.backgroundColor = "#FA8072";
+					  }
+				  }
+				  tableRows.push(tableColumns);
+				  //
+
+				  var data = google.visualization.arrayToDataTable(tableRows);
+
+				  var options = {
+					  title: 'P_value by Subject',
+					  vAxis: {title: 'P-value'},
+					  hAxis: {title: 'Subject'},
+					  seriesType: 'bars',
+					  series: {5: {type: 'line'}}
+				  };
+
+				  var chart = new google.visualization.ComboChart(document.getElementById('line_top_x'));
+				  chart.draw(data, options);
+			  }
+
+			  /*]]>*/
+		  </script>
         <title>Test Search Results</title>
     </head>
     <body>
@@ -16,14 +90,30 @@
 		            	<div class="woocommerce-info"> 
 		            		<span class="" th:text="${tests.name}">Test Results</span>
 		                 </div>
-		                <!--<div class="col-md-3 col-sm-6" th:each="test : ${tests}">-->
-		                    <!--<div class="single-test">-->
-		                            <!--<a class="analyze_button" data-test_name="" data-test_id=""-->
-		                            	<!--rel="nofollow" href="#"-->
-		                            	<!--th:onclick="'javascript:analizeTestResults(\'' + ${test.name} + '\');'">Analyze</a>-->
+						<div class="box-body table-responsive no-padding" >
+							<table class="table table-hover" id="datatable">
+								<tr>
+									<th style="width: 10px">#</th>
+									<th>Subject</th>
+									<th>P-value</th>
+									<th>Low</th>
+									<th>High</th>
+									<th>Test Name</th>
+									<th>Sample</th>
+								</tr>
+								<tr th:each="result,iterStat : ${tests.results}">
+									<td th:text="${iterStat.count}">1</td>
+									<td th:text="${result.sample.subject.email}"> Subject Name</td>
+									<td th:text="${result.p_value}">P-value</td>
+									<td th:text="${result.low}">Low Value</td>
+									<td th:text="${result.high}">High Value</td>
+									<td th:text="${result.test.name}">Test Name</td>
+									<td th:text="${result.sample.samples}">Sample</td>
+								</tr>
 
-		                    <!--</div>-->
-		                <!--</div>-->
+							</table>
+						</div>
+						<div id="line_top_x"></div>
 		                
 		            </div>
 		            

@@ -17,7 +17,7 @@ import java.util.List;
 
 @Controller
 @Secured(SecurityUtil.MANAGE_PERMISSIONS)
-public class PermissionController extends AdminBaseController
+public class PermissionControllerAdmin extends AdminBaseController
 {
 	private static final String viewPrefix = "permissions/";
 	
