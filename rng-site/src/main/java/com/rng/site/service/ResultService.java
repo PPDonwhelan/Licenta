@@ -90,4 +90,22 @@ public class ResultService {
 		if (ok==0){ return null;}
 		return result;
 	}
+	public List<Results> getAllResultsBySampleCategoryTest( Integer sample_id,Integer category_id, Integer test_id) {
+		TestCategory category=catalogService.getCategoryById(category_id);
+		List<Tests> tests= category.getTests();
+		List<Results> result=new ArrayList<Results>();
+		int ok=0;
+		for (int i =0; i< tests.size(); i++) {
+			if (tests.get(i).getId()==test_id) {
+				List<Results> try_found = getResultsByTestAndSampleId(tests.get(i).getId(), sample_id);
+				if (try_found != null) {
+					ok = 1;
+					result.addAll(try_found);
+				}
+			}
+
+		}
+		if (ok==0){ return null;}
+		return result;
+	}
 }
