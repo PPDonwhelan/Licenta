@@ -25,12 +25,13 @@
                     
                     <div class="form-group">
                       <label>Age</label>
-                      <input type="text" class="form-control" name="age" th:field="*{age}"  readonly="readonly"/>
+                      <input type="number" class="form-control" name="age" th:field="*{age}"  placeholder="Enter Product Age"/>
+                        <p th:if="${#fields.hasErrors('age')}" th:errors="*{age}" th:class="text-red">Incorrect data</p>
                     </div>
                     
-                    <div class="form-group" th:classappend="${#fields.hasErrors('gender')}? 'has-error'">
+                    <div class="form-group">
                       <label>Gender</label>
-                      <input type="text" class="form-control" name="price" th:field="*{gender}" placeholder="Enter Product Gender"/>
+                      <input type="text" class="form-control" name="gender" th:field="*{gender}" placeholder="Enter Product Gender"/>
                       <p th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}" th:class="text-red">Incorrect data</p>
                     </div>
 

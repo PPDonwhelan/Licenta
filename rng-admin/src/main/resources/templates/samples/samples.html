@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+	layout:decorator="layout/mainLayout">
+
+<head>
+<title>Sample</title>
+</head>
+<body>
+
+	<div layout:fragment="content">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="box">
+					<div class="box-header">
+						<h3 class="box-title">List of Samples</h3>
+						<div class="box-tools">
+							<div class="input-group" style="width: 150px;">
+								<a class="btn btn-sm btn-default" th:href="@{/sample/new}"><i
+									class="fa fa-plus-circle"></i> New Sample</a>
+							</div>
+						</div>
+					</div>
+					<!-- /.box-header -->
+					<div class="box-body table-responsive no-padding">
+						<table class="table table-hover" >
+							<tr>
+								<th style="width: 10px">#</th>
+								<th>Subject</th>
+								<th>X2-value</th>
+								<th>Low</th>
+								<th>High</th>
+								<th>Test Name</th>
+								<th>Sample</th>
+								<th>Edit</th>
+							</tr>
+							<tr th:each="sample : ${samples}">
+							<tr th:each="result,iterStat : ${sample.results}">
+								<td th:text="${iterStat.count}">1</td>
+								<td th:text="${result.sample.subject.email}"> Subject Name</td>
+								<td th:text="${result.p_value}">X2-value</td>
+								<td th:text="${result.low}">Low Value</td>
+								<td th:text="${result.high}">High Value</td>
+								<td th:text="${result.test.name}">Test Name</td>
+								<td th:text="${result.sample.samples}">Sample</td>
+								<td><a th:href="@{/sample/{id}(id=${sample.id})}"
+									   class="btn btn-sm btn-default"><i class="fa fa-edit"></i>
+									Edit</a></td>
+							</tr>
+							</tr>
+
+						</table>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+
+</html>

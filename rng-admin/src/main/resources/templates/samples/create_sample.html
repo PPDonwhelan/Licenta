@@ -4,6 +4,11 @@
       layout:decorator="layout/mainLayout">
       
       <head>
+          <script>
+              debugger;
+              var today = new Date();
+              document.getElementById('date').innerHTML = today
+          </script>
         <title>Sample - New</title>
     </head>
     <body>
@@ -15,35 +20,50 @@
                   <h3 class="box-title">Create New Sample</h3>
                 </div><!-- /.box-header -->
                 <div class="box-body">
-                  <form role="form" th:action="@{/tests}" th:object="${sample}" method="post" enctype="multipart/form-data">
+                  <form role="form" th:action="@{/samples}" th:object="${sample}" method="post" enctype="multipart/form-data">
                     <p th:if="${#fields.hasErrors('global')}" th:errors="*{sample}" th:class="text-red">Incorrect data</p>
 
                     
-                    <div class="form-group" th:classappend="${#fields.hasErrors('name')}? 'has-error'">
-                      <label>Name</label>
-                      <input type="text" class="form-control" name="name" th:field="*{name}" placeholder="Enter Subject email"/>
-                      <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}" th:class="text-red">Incorrect data</p>
+                    <div class="form-group" th:classappend="${#fields.hasErrors('samples')}? 'has-error'">
+                      <label>Sample</label>
+                      <input type="text" class="form-control" name="sample" th:field="*{samples}" placeholder="Enter Sample"/>
+                      <p th:if="${#fields.hasErrors('samples')}" th:errors="*{samples}" th:class="text-red">Incorrect data</p>
                     </div>
 
-                    <div class="form-group" th:classappend="${#fields.hasErrors('description')}? 'has-error'">
-                      <label>Description</label>
-                      <input type="text" class="form-control" name="description" th:field="*{description}" placeholder="Enter Subject age"/>
-                      <p th:if="${#fields.hasErrors('description')}" th:errors="*{description}" th:class="text-red">Incorrect data</p>
-                    </div>
+                      <div class="form-group" th:classappend="${#fields.hasErrors('subject')}? 'has-error'">
+                          <label>Subject</label>
+                          <div>
+                              <select class="form-control" th:field="*{subject}">
+                                  <option th:each="subject : ${subjectList}"
+                                          th:value="${subject.id}"
+                                          th:text="${subject.email}">Subject</option>
+                              </select>
+                              <p th:if="${#fields.hasErrors('subject')}" th:errors="*{subject}" th:class="text-red">Incorrect data</p>
+                          </div>
+                      </div>
 
                     
-					<div class="form-group" th:classappend="${#fields.hasErrors('categoryId')}? 'has-error'">
-						<label>Category</label>
+					<div class="form-group" th:classappend="${#fields.hasErrors('category')}? 'has-error'">
+						<label>Test</label>
 						<div>
-							<select class="form-control" th:field="*{categoryId}">
-							  <option th:each="cat : ${categoriesList}" 
-							          th:value="${cat.id}" 
-							          th:text="${cat.name}">Category</option>
+							<select class="form-control" th:field="*{category}">
+							  <option th:each="category : ${categoryList}"
+							          th:value="${category.id}"
+							          th:text="${category.name}">Category</option>
 							</select>
-					  	<p th:if="${#fields.hasErrors('categoryId')}" th:errors="*{categoryId}" th:class="text-red">Incorrect data</p>
+					  	<p th:if="${#fields.hasErrors('category')}" th:errors="*{category}" th:class="text-red">Incorrect data</p>
 						</div>
 						
     				</div>
+
+                    <div class="form-group" th:classappend="${#fields.hasErrors('timestamp')}? 'has-error'">
+                        <label>Date</label>
+                        <div>
+                            <input type="date" class="form-control" name="timestamp" th:field="*{timestamp}" placeholder="Enter Sample" />
+                            <p th:if="${#fields.hasErrors('timestamp')}" th:errors="*{timestamp}" th:class="text-red">Incorrect data</p>
+                        </div>
+
+                    </div>
     				
 					<div class="box-footer">
 	                    <button type="submit" class="btn btn-primary">Submit</button>

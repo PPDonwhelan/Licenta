@@ -17,7 +17,7 @@
 			//parcurgere tabel
 			var tableRows = [];
 			var tableColumns = [];
-			tableColumns.push("P-value")
+			tableColumns.push("X2-value")
 			for (var r = 1; r < n; r++) {
 				var m = table.rows[r].cells.length;
 				for (var c = 0; c < m; c++) {
@@ -29,7 +29,7 @@
 			}
 			tableRows.push(tableColumns);
 			var tableColumns = [];
-			tableColumns.push("p_value")
+			tableColumns.push("X2-value")
 			for (var r = 1; r < n; r++) {
 				var m = table.rows[r].cells.length;
 				var p_val;
@@ -64,8 +64,8 @@
 			var data = google.visualization.arrayToDataTable(tableRows);
 
 			var options = {
-				title: 'P_value by Test',
-				vAxis: {title: 'P-value'},
+				title: 'X2-value by Test',
+				vAxis: {title: 'X2-value'},
 				hAxis: {title: 'Tests'},
 				seriesType: 'bars',
 				series: {5: {type: 'line'}}
@@ -96,7 +96,7 @@
 								<tr >
 									<th style="width: 10px">#</th>
 									<th>Subject</th>
-									<th>P-value</th>
+									<th>X2-value</th>
 									<th>Low</th>
 									<th>High</th>
 									<th>Test Name</th>
@@ -105,7 +105,7 @@
 								<tr class="color" th:each="result,iterStat : ${results}">
 									<td th:text="${iterStat.count}">1</td>
 									<td th:text="${result.sample.subject.email}"> Subject Name</td>
-									<td th:text="${result.p_value}">P-value</td>
+									<td th:text="${result.p_value}">X2-value</td>
 									<td th:text="${result.low}">Low Value</td>
 									<td th:text="${result.high}">High Value</td>
 									<td th:text="${result.test.name}">Test Name</td>

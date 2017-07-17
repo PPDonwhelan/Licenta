@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      layout:decorator="layout/mainLayout">
+      
+      <head>
+        <title>Sample - Edit</title>
+    </head>
+    <body>
+    	        
+    	<div layout:fragment="content">
+	        
+              <div class="box box-warning">
+                <div class="box-header with-border">
+                  <h3 class="box-title">Edit Sample</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <form role="form" th:action="@{/sample/{id}(id=${sample.id})}" th:object="${sample}" method="post"  enctype="multipart/form-data">
+                    <p th:if="${#fields.hasErrors('global')}" th:errors="*{global}" th:class="text-red">Incorrect data</p>
+                    <!-- text input -->
+                      <div class="form-group" th:classappend="${#fields.hasErrors('samples')}? 'has-error'">
+                          <label>Sample</label>
+                          <input type="text" class="form-control" name="sample" th:field="*{samples}" placeholder="Enter Sample"/>
+                          <p th:if="${#fields.hasErrors('samples')}" th:errors="*{samples}" th:class="text-red">Incorrect data</p>
+                      </div>
+
+                      <div class="form-group" th:classappend="${#fields.hasErrors('subject')}? 'has-error'">
+                          <label>Subject</label>
+                          <div>
+                              <select class="form-control" th:field="*{subject}">
+                                  <option th:each="subject : ${subjectList}"
+                                          th:value="${subject.id}"
+                                          th:text="${subject.email}">Subject</option>
+                              </select>
+                              <p th:if="${#fields.hasErrors('subject')}" th:errors="*{subject}" th:class="text-red">Incorrect data</p>
+                          </div>
+                          </div>
+
+
+                          <div class="form-group" th:classappend="${#fields.hasErrors('category')}? 'has-error'">
+                              <label>Category</label>
+                              <div>
+                                  <select class="form-control" th:field="*{category}">
+                                      <option th:each="category : ${categoryList}"
+                                              th:value="${category.id}"
+                                              th:text="${category.name}">Test</option>
+                                  </select>
+                                  <p th:if="${#fields.hasErrors('category')}" th:errors="*{category}" th:class="text-red">Incorrect data</p>
+                              </div>
+
+                          </div>
+
+                          <div class="form-group" th:classappend="${#fields.hasErrors('timestamp')}? 'has-error'">
+                              <label>Date</label>
+                              <div>
+                                  <input type="date" class="form-control" name="timestamp" th:field="*{timestamp}" placeholder="Enter Sample" />
+                                  <p th:if="${#fields.hasErrors('timestamp')}" th:errors="*{timestamp}" th:class="text-red">Incorrect data</p>
+                              </div>
+
+                          </div>
+
+					    				
+					<div class="box-footer">
+	                    <button type="submit" class="btn btn-primary">Submit</button>
+	                </div>
+                  </form>
+                </div><!-- /.box-body -->
+              </div><!-- /.box -->
+    	</div>
+    	
+    </body>
+    
+</html>

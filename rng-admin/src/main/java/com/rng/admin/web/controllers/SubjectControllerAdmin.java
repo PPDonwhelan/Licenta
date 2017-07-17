@@ -46,9 +46,9 @@ public class SubjectControllerAdmin extends AdminBaseController
 	}
 	
 	@RequestMapping(value="/subjects", method=RequestMethod.GET)
-	public String listProducts(Model model) {
-		model.addAttribute("subject",catalogService.getAllSubjects());
-		return viewPrefix+"subject";
+	public String listSubjects(Model model) {
+		model.addAttribute("subjects",catalogService.getAllSubjects());
+		return viewPrefix+"subjects";
 	}
 
 	@RequestMapping(value="/subjects/new", method=RequestMethod.GET)
@@ -74,7 +74,7 @@ public class SubjectControllerAdmin extends AdminBaseController
 	}
 	
 	@RequestMapping(value="/subjects/{id}", method=RequestMethod.GET)
-	public String editProductForm(@PathVariable Integer id, Model model) {
+	public String editSubjectForm(@PathVariable Integer id, Model model) {
 		Subject subject = catalogService.getSubjectById(id);
 		model.addAttribute("subject",subject);
 		return viewPrefix+"edit_subject";
@@ -82,12 +82,12 @@ public class SubjectControllerAdmin extends AdminBaseController
 
 	
 	@RequestMapping(value="/subjects/{id}", method=RequestMethod.POST)
-	public String updateProduct(@Valid @ModelAttribute("subject") Subject subject, BindingResult result,
+	public String updateSubject(@Valid @ModelAttribute("subject") Subject subject, BindingResult result,
 			Model model, RedirectAttributes redirectAttributes) {
-		subjectValidatorAdmin.validate(subject, result);
-		if(result.hasErrors()){
-			return viewPrefix+"edit_subject";
-		}
+//		subjectValidatorAdmin.validate(subject, result);
+//		if(result.hasErrors()){
+//			return viewPrefix+"edit_subject";
+//		}
 		Subject persistedSubject = catalogService.updateSubject(subject);
 		logger.debug("Updated subject with id : {} and name : {}", persistedSubject.getId(), persistedSubject.getEmail());
 		redirectAttributes.addFlashAttribute("info", "Subject updated successfully");
